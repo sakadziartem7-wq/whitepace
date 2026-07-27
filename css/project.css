@@ -88,6 +88,7 @@
 }
 .project__work-img {
   max-width: 710px;
+  margin-bottom: 140px;
 }
 .project__link {
   display: flex;

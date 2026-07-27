@@ -1,0 +1,15 @@
+.needs {
+  padding-top: 140px;
+  overflow: hidden;
+}
+.needs__man {
+  display: flex;
+  align-items: center;
+}
+.needs__square {
+  min-width: 714px;
+  height: 532px;
+  background: #C4DEFD;
+}
+
+/*# sourceMappingURL=needs.css.map */
