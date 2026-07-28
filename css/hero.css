@@ -109,6 +109,7 @@
   letter-spacing: -0.36px;
   transition: all 0.3s;
   cursor: pointer;
+  border: none;
 }
 .hero__button:hover {
   background-color: transparent;

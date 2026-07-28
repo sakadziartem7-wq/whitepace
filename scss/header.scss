@@ -55,27 +55,23 @@
 
     &__button {
         padding: 16px 40px;
-        margin-bottom: 15px;
         border-radius: 8px;
         color: #043873;
         font-size: 18px;
         font-weight: 500;
         line-height: 23px;
         letter-spacing: -0.36px;
-
-
-        @media (max-width:1350px) {
-            margin-left: auto;
-
-        }
-
         background: #FFE492;
         cursor: pointer;
         transition: all 0.3s;
+        border: none;
 
         &:hover {
-            background: transparent;
-            color: #fff;
+            background: #e2c879;
+        }
+
+        @media (max-width: 1350px) {
+            margin-left: auto;
         }
 
         @media (max-width: 1350px) {
@@ -90,8 +86,7 @@
 
     &__login-btn {
         margin-left: 24px;
-        margin-bottom: 15px;
-        padding: 16px 24px;
+        padding: 15px 23px;
         border-radius: 8px;
         background: #4F9CF9;
         color: #FFF;
@@ -101,10 +96,17 @@
         letter-spacing: -0.36px;
         cursor: pointer;
         transition: all 0.3s;
+        border: 1px solid #4F9CF9;
 
         &:hover {
             background: transparent;
-            color: #fff;
+            color: #4F9CF9;
+
+            svg {
+                path {
+                    stroke: #4F9CF9;
+                }
+            }
         }
 
         svg {

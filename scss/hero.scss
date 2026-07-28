@@ -63,7 +63,6 @@
         letter-spacing: -0.36px;
     }
 
-
     &__Square {
         margin-bottom: 140px;
         flex: 1;
@@ -107,6 +106,7 @@
         letter-spacing: -0.36px;
         transition: all 0.3s;
         cursor: pointer;
+        border: none;
 
         &:hover {
             background-color: transparent;

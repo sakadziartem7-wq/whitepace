@@ -64,27 +64,24 @@ body * {
 }
 .header__button {
   padding: 16px 40px;
-  margin-bottom: 15px;
   border-radius: 8px;
   color: #043873;
   font-size: 18px;
   font-weight: 500;
   line-height: 23px;
   letter-spacing: -0.36px;
+  background: #FFE492;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: none;
+}
+.header__button:hover {
+  background: #e2c879;
 }
 @media (max-width: 1350px) {
   .header__button {
     margin-left: auto;
   }
-}
-.header__button {
-  background: #FFE492;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-.header__button:hover {
-  background: transparent;
-  color: #fff;
 }
 @media (max-width: 1350px) {
   .header__button {
@@ -98,8 +95,7 @@ body * {
 }
 .header__login-btn {
   margin-left: 24px;
-  margin-bottom: 15px;
-  padding: 16px 24px;
+  padding: 15px 23px;
   border-radius: 8px;
   background: #4F9CF9;
   color: #FFF;
@@ -109,10 +105,14 @@ body * {
   letter-spacing: -0.36px;
   cursor: pointer;
   transition: all 0.3s;
+  border: 1px solid #4F9CF9;
 }
 .header__login-btn:hover {
   background: transparent;
-  color: #fff;
+  color: #4F9CF9;
+}
+.header__login-btn:hover svg path {
+  stroke: #4F9CF9;
 }
 .header__login-btn svg {
   margin-left: 15px;
@@ -234,6 +234,7 @@ body * {
   letter-spacing: -0.36px;
   transition: all 0.3s;
   cursor: pointer;
+  border: none;
 }
 .hero__button:hover {
   background-color: transparent;
