@@ -6,6 +6,13 @@
     &__row {
         display: flex;
         align-items: center;
+        gap: 98px;
+
+    }
+
+    &__content {
+        max-width: 670px;
+        flex-shrink: 1;
     }
 
     &__title {
@@ -26,10 +33,9 @@
                 width: 100%;
                 height: 12px;
                 bottom: 8px;
-               background: rgb(255, 238, 0);
-            }   
+                background: rgb(255, 238, 0);
+            }
         }
-
 
 
     }
@@ -55,7 +61,7 @@
         letter-spacing: -0.36px;
         transition: all 0.3s;
         cursor: pointer;
-         
+
         &:hover {
             background-color: transparent;
         }
@@ -67,7 +73,8 @@
     }
 
     &__square {
-        min-width: 685px;
+        margin-bottom: 140px;
+        width: 685px;
         height: 479px;
         background: #C4DEFD;
         margin-top: 140px;

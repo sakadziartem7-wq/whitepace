@@ -189,6 +189,7 @@ body * {
   letter-spacing: -0.36px;
 }
 .hero__Square {
+  margin-bottom: 140px;
   flex: 1;
   margin-top: 140px;
   width: 824px;
@@ -254,7 +255,7 @@ body * {
 }
 .project__content {
   max-width: 672px;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 @media (max-width: 1450px) {
   .project__content {
@@ -281,7 +282,6 @@ body * {
   background: #e6c407;
 }
 .project__text {
-  max-width: 672px;
   margin-bottom: 60px;
   color: #212529;
   font-size: 18px;
@@ -290,7 +290,8 @@ body * {
   letter-spacing: -0.36px;
 }
 .project__Square {
-  flex-shrink: 1;
+  padding-top: 140px;
+  flex-shrink: 0;
   width: 100%;
   max-width: 748px;
   height: 547px;
@@ -335,6 +336,7 @@ body * {
   margin-bottom: 140px;
 }
 .project__link {
+  padding-top: 100px;
   display: flex;
   gap: 100px;
 }
@@ -395,6 +397,11 @@ body * {
 .extension__row {
   display: flex;
   align-items: center;
+  gap: 98px;
+}
+.extension__content {
+  max-width: 670px;
+  flex-shrink: 1;
 }
 .extension__title {
   margin-bottom: 24px;
@@ -443,7 +450,8 @@ body * {
   margin-left: 10px;
 }
 .extension__square {
-  min-width: 685px;
+  margin-bottom: 140px;
+  width: 685px;
   height: 479px;
   background: #C4DEFD;
   margin-top: 140px;
@@ -456,9 +464,63 @@ body * {
 .needs__man {
   display: flex;
   align-items: center;
+  gap: 93px;
+}
+.needs__item {
+  max-width: 669px;
+  flex-shrink: 1;
+}
+.needs__title {
+  margin-bottom: 24px;
+  color: #212529;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+.needs__title span {
+  position: relative;
+}
+.needs__title span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 12px;
+  bottom: -8px;
+  background: #e6c407;
+}
+.needs__text {
+  margin-bottom: 60px;
+  color: #212529;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+.needs__button {
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: #4F9CF9;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.36px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.needs__button:hover {
+  background: transparent;
+  color: #4F9CF9;
+}
+.needs__button svg {
+  margin-left: 10px;
 }
 .needs__square {
-  min-width: 714px;
+  margin-top: 140px;
+  flex-shrink: 0;
+  width: 714px;
   height: 532px;
   background: #C4DEFD;
 }

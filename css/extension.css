@@ -6,6 +6,11 @@
 .extension__row {
   display: flex;
   align-items: center;
+  gap: 98px;
+}
+.extension__content {
+  max-width: 670px;
+  flex-shrink: 1;
 }
 .extension__title {
   margin-bottom: 24px;
@@ -54,7 +59,8 @@
   margin-left: 10px;
 }
 .extension__square {
-  min-width: 685px;
+  margin-bottom: 140px;
+  width: 685px;
   height: 479px;
   background: #C4DEFD;
   margin-top: 140px;
