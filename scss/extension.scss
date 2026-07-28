@@ -7,12 +7,16 @@
         display: flex;
         align-items: center;
         gap: 98px;
-
     }
 
     &__content {
         max-width: 670px;
         flex-shrink: 1;
+
+        @media (max-width:1400px) {
+            max-width: 552px;
+            
+        }
     }
 
     &__title {
@@ -37,7 +41,6 @@
             }
         }
 
-
     }
 
     &__text {
@@ -47,7 +50,6 @@
         font-weight: 400;
         line-height: 30px;
         letter-spacing: -0.36px;
-
     }
 
     &__button {
@@ -69,7 +71,6 @@
         svg {
             margin-left: 10px;
         }
-
     }
 
     &__square {

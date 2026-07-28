@@ -12,6 +12,11 @@
   max-width: 670px;
   flex-shrink: 1;
 }
+@media (max-width: 1400px) {
+  .extension__content {
+    max-width: 552px;
+  }
+}
 .extension__title {
   margin-bottom: 24px;
   color: #FFF;

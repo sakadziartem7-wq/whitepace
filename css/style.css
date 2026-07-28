@@ -255,7 +255,7 @@ body * {
 }
 .project__content {
   max-width: 672px;
-  flex-shrink: 1;
+  flex-shrink: 0;
 }
 @media (max-width: 1450px) {
   .project__content {
@@ -291,7 +291,7 @@ body * {
 }
 .project__Square {
   padding-top: 140px;
-  flex-shrink: 0;
+  flex-shrink: 1;
   width: 100%;
   max-width: 748px;
   height: 547px;
@@ -402,6 +402,11 @@ body * {
 .extension__content {
   max-width: 670px;
   flex-shrink: 1;
+}
+@media (max-width: 1400px) {
+  .extension__content {
+    max-width: 552px;
+  }
 }
 .extension__title {
   margin-bottom: 24px;
