@@ -1,7 +1,7 @@
 .hero {
     overflow: hidden;
-    min-height: 829px;
-    background-image: url("../images/hero/Hero-section.png");
+    background: #043873;
+    background-image: url(../images/hero/Element.svg);
     background-size: cover;
     padding-top: 120px;
 
@@ -12,14 +12,9 @@
     &__elem {
         display: flex;
         align-items: center;
-
-        @media (max-width:980px) {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            gap: 60px;
-        }
+        justify-content: space-between;
+        gap: 10px;
+      
     }
 
     &__rem {
@@ -38,6 +33,7 @@
     }
 
     &__title {
+       max-width: 652px;
         color: #FFF;
         font-size: 64px;
         font-weight: 700;
@@ -55,6 +51,7 @@
     }
 
     &__text {
+        max-width: 656px;
         margin-top: 24px;
         color: #FFF;
         font-size: 18px;
@@ -63,33 +60,28 @@
         letter-spacing: -0.36px;
     }
 
-    &__Square {
+    &__square {
         margin-bottom: 140px;
         flex: 1;
         margin-top: 140px;
-        width: 824px;
+        max-width: 824px;
         height: 545px;
         background: #C4DEFD;
 
         @media (max-width:1400px) {
-            width: 685px;
+            max-width: 685px;
             height: 456px;
         }
 
         @media (max-width:1152px) {
-            width: 526px;
+            max-width: 526px;
             height: 350px;
         }
 
-        @media (max-width:980px) {
-            flex: 0 0 auto;
-            width: 551px;
-            height: 360px;
-            margin-bottom: 100px;
-        }
+      
 
         @media (max-width:680px) {
-            width: 286px;
+            width: 100%;
             height: 192px;
         }
     }
@@ -106,11 +98,17 @@
         letter-spacing: -0.36px;
         transition: all 0.3s;
         cursor: pointer;
-        border: none;
+        border: 1px solid #5480b6;
 
         &:hover {
             background-color: transparent;
             color: #4F9CF9;
+
+            svg {
+                path {
+                    stroke: #4F9CF9;
+                }
+            }
         }
 
         svg {

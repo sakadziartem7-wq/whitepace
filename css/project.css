@@ -44,7 +44,7 @@
   line-height: 30px;
   letter-spacing: -0.36px;
 }
-.project__Square {
+.project__square {
   padding-top: 140px;
   flex-shrink: 1;
   width: 100%;
@@ -53,7 +53,7 @@
   background: #C4DEFD;
 }
 @media (max-width: 1450px) {
-  .project__Square {
+  .project__square {
     max-width: 719px;
     height: 448px;
   }
