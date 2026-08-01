@@ -27,14 +27,10 @@
 .project__title span {
   position: relative;
 }
-.project__title span::after {
-  content: "";
+.project__title span svg {
   position: absolute;
   left: 0;
-  bottom: 6px;
-  width: 100%;
-  height: 12px;
-  background: #e6c407;
+  bottom: -8px;
 }
 .project__text {
   margin-bottom: 60px;
@@ -106,14 +102,10 @@
 .project__work-title span {
   position: relative;
 }
-.project__work-title span::after {
-  content: "";
+.project__work-title span svg {
   position: absolute;
   left: 0;
-  width: 100%;
-  height: 12px;
-  bottom: 8px;
-  background: #e6c407;
+  bottom: -8px;
 }
 .project__work-text {
   color: #212529;

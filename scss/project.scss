@@ -25,19 +25,15 @@
         letter-spacing: -1.44px;
         margin-bottom: 24px;
 
-        span {
-            position: relative;
+      span {
+        position: relative;
 
-            &::after {
-                content: "";
-                position: absolute;
-                left: 0;
-                bottom: 6px;
-                width: 100%;
-                height: 12px;
-                background: #e6c407;
-            }
+        svg {
+            position: absolute;
+            left: 0;
+            bottom: -8px;
         }
+      }
 
     }
 
@@ -119,19 +115,16 @@
         letter-spacing: -1.44px;
         margin-bottom: 24px;
 
-        span {
-            position: relative;
+      span {
+        position: relative;
 
-            &::after {
-                content: "";
-                position: absolute;
-                left: 0;
-                width: 100%;
-                height: 12px;
-                bottom: 8px;
-                background: #e6c407;
-            }
+        svg {
+            position: absolute; 
+            left: 0;
+            bottom: -8px;
         }
+      }
+
     }
 
     &__work-text {
