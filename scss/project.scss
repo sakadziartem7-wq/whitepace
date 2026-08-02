@@ -11,7 +11,6 @@
 
     &__content {
         max-width: 672px;
-        flex-shrink: 0;
 
         @media (max-width:1400px) {
             max-width: 617px;
@@ -115,6 +114,7 @@
 
 
     &__work-title {
+        max-width: 670px;
         color: #212529;
         font-size: 72px;
         font-weight: 700;
