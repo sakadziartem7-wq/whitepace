@@ -6,13 +6,17 @@
         position: relative;
         display: flex;
         align-items: center;
-        gap: 60px;
+            gap: 60px;
     }
 
     &__content {
         max-width: 672px;
         flex-shrink: 0;
 
+        @media (max-width:1400px) {
+            max-width: 617px;
+
+        }
     }
 
     &__title {
@@ -33,7 +37,6 @@
                 bottom: -18px;
             }
         }
-
     }
 
     &__text {
@@ -48,13 +51,11 @@
 
     &__square {
         padding-top: 140px;
-        flex-shrink: 1;
-        width: 100%;
-        max-width: 748px;
+        width: 748px;
         height: 547px;
         background: #C4DEFD;
 
-        @media (max-width:1450px) {
+        @media (max-width:1400px) {
             max-width: 719px;
             height: 448px;
         }

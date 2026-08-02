@@ -12,6 +12,11 @@
   max-width: 672px;
   flex-shrink: 0;
 }
+@media (max-width: 1400px) {
+  .project__content {
+    max-width: 617px;
+  }
+}
 .project__title {
   max-width: 672px;
   color: #212529;
@@ -40,13 +45,11 @@
 }
 .project__square {
   padding-top: 140px;
-  flex-shrink: 1;
-  width: 100%;
-  max-width: 748px;
+  width: 748px;
   height: 547px;
   background: #C4DEFD;
 }
-@media (max-width: 1450px) {
+@media (max-width: 1400px) {
   .project__square {
     max-width: 719px;
     height: 448px;
