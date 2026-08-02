@@ -13,32 +13,32 @@
         max-width: 672px;
         flex-shrink: 0;
 
-        @media (max-width:1450px) {
-            max-width: 617px;
-        }
     }
 
     &__title {
+        max-width: 672px;
         color: #212529;
         font-size: 72px;
         font-weight: 700;
+        line-height: normal;
         letter-spacing: -1.44px;
         margin-bottom: 24px;
 
-      span {
-        position: relative;
+        span {
+            position: relative;
 
-        svg {
-            position: absolute;
-            left: 0;
-            bottom: -8px;
+            svg {
+                position: absolute;
+                left: 0;
+                bottom: -18px;
+            }
         }
-      }
 
     }
 
     &__text {
-        margin-bottom: 60px;
+        max-width: 672px;
+        margin-top: 24px;
         color: #212529;
         font-size: 18px;
         font-weight: 400;
@@ -62,6 +62,7 @@
     }
 
     &__button {
+        margin-top: 60px;
         padding: 20px 40px;
         border-radius: 6px;
         background: #4F9CF9;
@@ -71,11 +72,16 @@
         line-height: 23px;
         letter-spacing: -0.36px;
         transition: all 0.3s;
+        border: 1px solid #4F9CF9;
         cursor: pointer;
 
         &:hover {
             background: transparent;
             color: #4F9CF9;
+
+            path {
+                stroke: #4F9CF9;
+            }
         }
 
         &__btr {
@@ -115,16 +121,16 @@
         letter-spacing: -1.44px;
         margin-bottom: 24px;
 
-      span {
-        position: relative;
+        span {
+            position: relative;
 
-        svg {
-            position: absolute; 
-            left: 0;
-            bottom: -8px;
+            svg {
+                position: absolute;
+                left: 0;
+                bottom: -8px;
+            }
         }
-      }
-    
+
     }
 
     &__work-text {
@@ -148,11 +154,16 @@
         line-height: 23px;
         letter-spacing: -0.36px;
         transition: all 0.3s;
+        border: 1px solid #4F9CF9;
         cursor: pointer;
 
         &:hover {
             background-color: transparent;
             color: #4F9CF9;
+
+            path {
+                stroke: #4F9CF9;
+            }
         }
 
         svg {

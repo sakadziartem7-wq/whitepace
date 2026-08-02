@@ -12,15 +12,12 @@
   max-width: 672px;
   flex-shrink: 0;
 }
-@media (max-width: 1450px) {
-  .project__content {
-    max-width: 617px;
-  }
-}
 .project__title {
+  max-width: 672px;
   color: #212529;
   font-size: 72px;
   font-weight: 700;
+  line-height: normal;
   letter-spacing: -1.44px;
   margin-bottom: 24px;
 }
@@ -30,10 +27,11 @@
 .project__title span svg {
   position: absolute;
   left: 0;
-  bottom: -8px;
+  bottom: -18px;
 }
 .project__text {
-  margin-bottom: 60px;
+  max-width: 672px;
+  margin-top: 24px;
   color: #212529;
   font-size: 18px;
   font-weight: 400;
@@ -55,6 +53,7 @@
   }
 }
 .project__button {
+  margin-top: 60px;
   padding: 20px 40px;
   border-radius: 6px;
   background: #4F9CF9;
@@ -64,11 +63,15 @@
   line-height: 23px;
   letter-spacing: -0.36px;
   transition: all 0.3s;
+  border: 1px solid #4F9CF9;
   cursor: pointer;
 }
 .project__button:hover {
   background: transparent;
   color: #4F9CF9;
+}
+.project__button:hover path {
+  stroke: #4F9CF9;
 }
 .project__button__btr {
   margin-left: 10px;
@@ -126,11 +129,15 @@
   line-height: 23px;
   letter-spacing: -0.36px;
   transition: all 0.3s;
+  border: 1px solid #4F9CF9;
   cursor: pointer;
 }
 .project__work-button:hover {
   background-color: transparent;
   color: #4F9CF9;
+}
+.project__work-button:hover path {
+  stroke: #4F9CF9;
 }
 .project__work-button svg {
   margin-left: 10px;

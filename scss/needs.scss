@@ -50,12 +50,17 @@
         font-weight: 500;
         line-height: 23px;
         letter-spacing: -0.36px;
+        border: 1px solid #4F9CF9;
         transition: all 0.3s;
         cursor: pointer;
 
         &:hover {
             background: transparent;
             color: #4F9CF9;
+
+            path {
+                stroke: #4F9CF9;
+            }
         }
 
         svg {

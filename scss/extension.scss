@@ -58,10 +58,15 @@
         line-height: 23px;
         letter-spacing: -0.36px;
         transition: all 0.3s;
+        border: 1px solid #4F9CF9;
         cursor: pointer;
 
         &:hover {
             background-color: transparent;
+
+            path {
+                stroke: #4F9CF9;
+            }
         }
 
         svg {
