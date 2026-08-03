@@ -6,7 +6,7 @@
         position: relative;
         display: flex;
         align-items: center;
-            gap: 60px;
+        gap: 60px;
     }
 
     &__content {
@@ -34,6 +34,11 @@
                 position: absolute;
                 left: 0;
                 bottom: -18px;
+
+                @media (max-width:1152px) {
+                    left: 184px;
+                    width: 100%;
+                }
             }
         }
     }
@@ -50,7 +55,8 @@
 
     &__square {
         padding-top: 140px;
-        width: 748px;
+        flex: 1 1 748px;
+        max-width: 748px;
         height: 547px;
         background: #C4DEFD;
 
@@ -113,6 +119,10 @@
     }
 
 
+    &__work-content {
+        max-width: 670px;
+    }
+
     &__work-title {
         max-width: 670px;
         color: #212529;
@@ -135,6 +145,7 @@
     }
 
     &__work-text {
+        max-width: 670px;
         color: #212529;
         font-size: 18px;
         font-weight: 400;

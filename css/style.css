@@ -296,6 +296,12 @@ body * {
   left: 0;
   bottom: -18px;
 }
+@media (max-width: 1152px) {
+  .project__title span svg {
+    left: 184px;
+    width: 100%;
+  }
+}
 .project__text {
   max-width: 672px;
   margin-top: 24px;
@@ -307,7 +313,8 @@ body * {
 }
 .project__square {
   padding-top: 140px;
-  width: 748px;
+  flex: 1 1 748px;
+  max-width: 748px;
   height: 547px;
   background: #C4DEFD;
 }
@@ -359,6 +366,9 @@ body * {
   display: flex;
   gap: 100px;
 }
+.project__work-content {
+  max-width: 670px;
+}
 .project__work-title {
   max-width: 670px;
   color: #212529;
@@ -377,6 +387,7 @@ body * {
   bottom: -8px;
 }
 .project__work-text {
+  max-width: 670px;
   color: #212529;
   font-size: 18px;
   font-weight: 400;
