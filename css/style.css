@@ -279,6 +279,11 @@ body * {
     max-width: 617px;
   }
 }
+@media (max-width: 1152px) {
+  .project__content {
+    max-width: 528px;
+  }
+}
 .project__title {
   max-width: 672px;
   color: #212529;
@@ -322,6 +327,12 @@ body * {
   .project__square {
     max-width: 719px;
     height: 448px;
+  }
+}
+@media (max-width: 1150px) {
+  .project__square {
+    max-width: 560px;
+    height: 384px;
   }
 }
 .project__button {
