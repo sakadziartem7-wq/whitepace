@@ -1,0 +1,62 @@
+.YourPlan {
+    overflow: hidden;
+    padding-top: 140px;
+
+    &__title {
+        max-width: 1481px;
+        text-align: center;
+        color: #212529;
+        text-align: center;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1.44px;
+
+        span {
+            position: relative;
+
+            svg {
+                position: absolute;
+                left: 0;
+                bottom: -21px;
+            }
+        }
+    }
+
+    &__text {
+        margin: 0 auto;
+        max-width: 979px;
+        color: #212529;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.36px;
+
+    }
+
+    &__grid {
+        display: flex;
+        align-items: center;
+    
+    }
+
+     &__list {
+            list-style: none;
+            max-width: 473px;
+            background: #fff;
+            border: 1px solid #FFE492 ;
+            border-radius: 10px;
+            padding: 0;
+            margin: 0;
+        }
+
+       &__name {
+    color: #212529;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    
+
+       }
+}
