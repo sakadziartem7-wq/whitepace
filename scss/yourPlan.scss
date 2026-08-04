@@ -32,7 +32,6 @@
         font-weight: 400;
         line-height: 30px;
         letter-spacing: -0.36px;
-
     }
 
     &__grid {
@@ -44,7 +43,6 @@
     &__list {
         width: calc((100% - 64px) / 3);
         list-style: none;
-        max-width: 473px;
         background: #fff;
         border: 1px solid #FFE492;
         border-radius: 10px;
@@ -64,7 +62,6 @@
         font-weight: 700;
         line-height: normal;
         letter-spacing: -0.72px;
-
     }
 
     &__subtitle {
@@ -86,7 +83,6 @@
         line-height: 20px;
         letter-spacing: -0.32px;
         margin-left: 31px;
-
     }
 
     &__descr::before {
@@ -99,7 +95,6 @@
         height: 18px;
         border: 2px solid #212529;
         border-radius: 50%;
-
     }
 
     &__button {
@@ -124,9 +119,10 @@
     }
 
     &__list-personal {
-        max-width: 472px;
+        max-width: 473px;
+        width: calc((100% - 64px) / 3);
         border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.08);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
         background: #043873;
         list-style: none;
         padding: 0 44px;
@@ -146,15 +142,21 @@
         font-weight: 700;
         line-height: normal;
         letter-spacing: -0.72px;
-
     }
 
-
+    &__heading {
+        margin-top: 25px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: -0.36px;
+    }
 
     &__info {
         max-width: 347px;
         position: relative;
-        margin-left: 31px ;
+        margin-left: 31px;
         color: #FFF;
         font-size: 18px;
         font-weight: 500;
@@ -167,32 +169,29 @@
         content: "✓";
         display: flex;
         justify-content: center;
-        position:absolute;
+        position: absolute;
         left: -41px;
         width: 18px;
         border: 2px solid #212529;
         border-radius: 50%;
     }
 
-   &__btn  {
-    padding: 16px 40px;
-    align-items: center;
-    border-radius: 8px;
-    background: #4F9CF9;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: -0.32px;
-    border: 1px solid #4F9CF9;
-    cursor: pointer;
-    transition: all 0.3s;
-    margin-top: 41px;
+    &__btn {
+        padding: 16px 40px;
+        align-items: center;
+        border-radius: 8px;
+        background: #4F9CF9;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: -0.32px;
+        border: 1px solid #4F9CF9;
+        cursor: pointer;
+        transition: all 0.3s;
+        margin-top: 41px;
 
-    
-    &:hover {
-        background: transparent;
+        &:hover {
+            background: transparent;
+        }
     }
-   }
-
-
 }

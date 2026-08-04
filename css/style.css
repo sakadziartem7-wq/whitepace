@@ -615,7 +615,6 @@ body * {
 .YourPlan__list {
   width: calc((100% - 64px) / 3);
   list-style: none;
-  max-width: 473px;
   background: #fff;
   border: 1px solid #FFE492;
   border-radius: 10px;
@@ -682,9 +681,10 @@ body * {
   color: #212529;
 }
 .YourPlan__list-personal {
-  max-width: 472px;
+  max-width: 473px;
+  width: calc((100% - 64px) / 3);
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   background: #043873;
   list-style: none;
   padding: 0 44px;
@@ -701,6 +701,14 @@ body * {
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.72px;
+}
+.YourPlan__heading {
+  margin-top: 25px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.36px;
 }
 .YourPlan__info {
   max-width: 347px;
