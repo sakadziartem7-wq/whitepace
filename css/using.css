@@ -1,0 +1,14 @@
+.using {
+  overflow: hidden;
+  background: #043873;
+  background-image: url(../images/apps/Element.svg);
+  padding-top: 140px;
+}
+.using__container {
+  display: flex;
+}
+.using__img {
+  max-width: 582px;
+}
+
+/*# sourceMappingURL=using.css.map */
