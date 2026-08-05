@@ -909,6 +909,24 @@ body * {
 }
 .using__container {
   display: flex;
+  gap: 100px;
+}
+.using__infa {
+  max-width: 798px;
+}
+.using__title {
+  color: #FFF;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -1.44px;
+}
+.using__text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-top: 24px;
 }
 .using__img {
   max-width: 582px;

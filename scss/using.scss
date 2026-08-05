@@ -1,14 +1,35 @@
 .using {
-    overflow: hidden;
-     background: #043873;
-     background-image: url(../images/apps/Element.svg);
-      padding-top: 140px;
+   overflow: hidden;
+   background: #043873;
+   background-image: url(../images/apps/Element.svg);
+   padding-top: 140px;
 
-      &__container {
-         display: flex;
-      }
+   &__container {
+      display: flex;
+      gap: 100px;
+   }
 
-     &__img {
-        max-width: 582px;
-     }
+   &__infa {
+      max-width: 798px;
+   }
+
+   &__title {
+      color: #FFF;
+      font-size: 72px;
+      font-weight: 700;
+      letter-spacing: -1.44px;
+   }
+
+   &__text {
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -0.36px;
+      margin-top: 24px;
+   }
+
+   &__img {
+      max-width: 582px;
+   }
 }
