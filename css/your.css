@@ -1,0 +1,62 @@
+.data {
+  overflow: hidden;
+  padding-top: 168px;
+}
+.data__container {
+  display: flex;
+  justify-content: space-between;
+}
+.data__content {
+  min-width: 780px;
+}
+.data__title {
+  color: #212529;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+.data__title span {
+  position: relative;
+}
+.data__title span svg {
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+}
+.data__text {
+  color: #212529;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-top: 24px;
+}
+.data__img {
+  max-width: 681px;
+}
+.data__button {
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: #4F9CF9;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid #4F9CF9;
+  margin-top: 60px;
+}
+.data__button svg {
+  margin-left: 10px;
+}
+.data__button:hover {
+  background: transparent;
+  color: #4F9CF9;
+}
+.data__button:hover path {
+  stroke: #4F9CF9;
+}
+
+/*# sourceMappingURL=your.css.map */
