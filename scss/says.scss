@@ -27,11 +27,12 @@
         padding: 0;
         margin: 0;
         list-style: none;
+        
     }
 
     &__list {
         max-width: 471px;
-        width: calc((100% - 64px) / 3);
+        width: calc((100% - 64px) );
         background: #fff;
         border-radius: 10px;
         box-shadow: 15px 10px 50px 0 rgba(0, 0, 0, 0.10);
@@ -39,7 +40,6 @@
     }
 
     &__text {
-        max-width: 391px;
         color: #212529;
         font-size: 18px;
         font-weight: 400;
@@ -78,25 +78,22 @@
         line-height: 20px;
         letter-spacing: -0.32px;
         margin-left: 42px;
-
     }
 
     &__listeri {
-        max-width: 471px;
-        width: calc((100% - 64px) / 3);
+        width: 471px;
+        width: calc((100% - 24px) );
         background: #4F9CF9;
         border-radius: 10px;
         padding: 60px 40px;
     }
 
-    &__Description {
-        max-width: 391px;
+    &__Description { 
         color: #FFF;
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
         letter-spacing: -0.36px;
-
     }
 
     &__border-bottom {
@@ -104,6 +101,7 @@
     }
 
     &__texteri {
+        max-width: 391px;
         color: #fff;
         margin-left: 42px;
         font-size: 16px;

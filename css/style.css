@@ -983,14 +983,13 @@ body * {
 }
 .says__list {
   max-width: 471px;
-  width: calc((100% - 64px) / 3);
+  width: calc(100% - 64px);
   background: #fff;
   border-radius: 10px;
   box-shadow: 15px 10px 50px 0 rgba(0, 0, 0, 0.1);
   padding: 60px 40px;
 }
 .says__text {
-  max-width: 391px;
   color: #212529;
   font-size: 18px;
   font-weight: 400;
@@ -1024,14 +1023,13 @@ body * {
   margin-left: 42px;
 }
 .says__listeri {
-  max-width: 471px;
-  width: calc((100% - 64px) / 3);
+  width: 471px;
+  width: calc(100% - 24px);
   background: #4F9CF9;
   border-radius: 10px;
   padding: 60px 40px;
 }
 .says__Description {
-  max-width: 391px;
   color: #FFF;
   font-size: 18px;
   font-weight: 400;
@@ -1042,6 +1040,7 @@ body * {
   border: 1px solid #FFF;
 }
 .says__texteri {
+  max-width: 391px;
   color: #fff;
   margin-left: 42px;
   font-size: 16px;
