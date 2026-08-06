@@ -41,5 +41,49 @@
   line-height: 30px;
   letter-spacing: -0.36px;
 }
+.says__border {
+  border: 1px solid #212529;
+}
+.says__comint {
+  max-width: 383px;
+  display: flex;
+}
+.says__comint svg {
+  margin-top: 60px;
+}
+.says__com {
+  margin-left: 42px;
+  margin-top: 60px;
+  color: #212529;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.says__texter {
+  color: #212529;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  margin-left: 42px;
+}
+.says__listeri {
+  max-width: 471px;
+  width: calc((100% - 64px) / 3);
+  background: #4F9CF9;
+  border-radius: 10px;
+  padding: 60px 40px;
+}
+.says__Description {
+  max-width: 391px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+.says__border-bottom {
+  border: 1px solid #FFF;
+}
 
 /*# sourceMappingURL=says.css.map */
