@@ -27,6 +27,28 @@
 }
 .using__img {
   max-width: 582px;
+  margin-bottom: 140px;
+}
+.using__button {
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: #4F9CF9;
+  margin-top: 60px;
+  margin-bottom: 141px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.36px;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: 1px solid #4F9CF9;
+}
+.using__button:hover {
+  background: transparent;
+}
+.using__button svg {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=using.css.map */

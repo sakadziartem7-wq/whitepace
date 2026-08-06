@@ -1,0 +1,45 @@
+.says {
+  overflow: hidden;
+  padding-top: 140px;
+}
+.says__title {
+  color: #212529;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 84px;
+}
+.says__title span {
+  position: relative;
+}
+.says__title span svg {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.says__grid {
+  display: flex;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.says__list {
+  max-width: 471px;
+  width: calc((100% - 64px) / 3);
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 15px 10px 50px 0 rgba(0, 0, 0, 0.1);
+  padding: 60px 40px;
+}
+.says__text {
+  max-width: 391px;
+  color: #212529;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+
+/*# sourceMappingURL=says.css.map */
