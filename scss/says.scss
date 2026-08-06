@@ -100,6 +100,15 @@
     }
 
     &__border-bottom {
-       border: 1px solid #FFF;
+        border: 1px solid #FFF;
+    }
+
+    &__texteri {
+        color: #fff;
+        margin-left: 42px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.32px;
     }
 }
