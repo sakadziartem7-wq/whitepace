@@ -7,7 +7,7 @@
     &__br {
         position: absolute;
         top: 0;
-       bottom: 2px;
+        bottom: 2px;
     }
 
     &__title {
@@ -46,9 +46,8 @@
         padding: 20px 40px;
         border-radius: 8px;
         background: #4F9CF9;
-        margin-left: 643px;
-        margin-bottom: 140px;
-        margin-top: 64px;
+        display: block;
+        margin: 64px auto 140px;
         color: #FFF;
         font-size: 18px;
         font-weight: 500;
