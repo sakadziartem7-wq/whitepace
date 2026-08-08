@@ -81,8 +81,8 @@
     }
 
     &__listeri {
-        width: 471px;
-        width: calc((100% - 24px) );
+        max-width: 471px;
+        width: calc((100% - 64px) );
         background: #4F9CF9;
         border-radius: 10px;
         padding: 60px 40px;
