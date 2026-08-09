@@ -25,14 +25,13 @@
         display: flex;
         gap: 32px;
         padding: 0;
-        margin: 0;
+        margin-bottom: 140px;
         list-style: none;
-        
     }
 
     &__list {
         max-width: 471px;
-        width: calc((100% - 64px) );
+        width: calc((100% - 64px));
         background: #fff;
         border-radius: 10px;
         box-shadow: 15px 10px 50px 0 rgba(0, 0, 0, 0.10);
@@ -82,13 +81,13 @@
 
     &__listeri {
         max-width: 471px;
-        width: calc((100% - 64px) );
+        width: calc((100% - 64px));
         background: #4F9CF9;
         border-radius: 10px;
         padding: 60px 40px;
     }
 
-    &__Description { 
+    &__Description {
         color: #FFF;
         font-size: 18px;
         font-weight: 400;

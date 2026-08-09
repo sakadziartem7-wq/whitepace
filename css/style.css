@@ -977,7 +977,7 @@ body * {
   display: flex;
   gap: 32px;
   padding: 0;
-  margin: 0;
+  margin-bottom: 140px;
   list-style: none;
 }
 .says__list {
