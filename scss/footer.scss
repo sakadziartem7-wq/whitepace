@@ -1,0 +1,36 @@
+.footer {
+    overflow: hidden;
+    background: #043873;
+    padding-top: 140px;
+
+    &__text {
+        color: #F7F7EE;
+        margin-top: 15px;
+        width: 240px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.36px;
+    }
+
+    &__container {
+        display: flex;
+        align-items: flex-start;
+
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    } 
+
+    &__title {
+        margin: 0;
+    }
+
+    &__link {
+        margin-top: 15px;
+        text-decoration: none;
+    }
+}

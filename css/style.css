@@ -1109,4 +1109,35 @@ body * {
   padding-top: 40px;
 }
 
+.footer {
+  overflow: hidden;
+  background: #043873;
+  padding-top: 140px;
+}
+.footer__text {
+  color: #F7F7EE;
+  margin-top: 15px;
+  width: 240px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+.footer__container {
+  display: flex;
+  align-items: flex-start;
+}
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer__title {
+  margin: 0;
+}
+.footer__link {
+  margin-top: 15px;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
