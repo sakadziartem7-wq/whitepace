@@ -1126,6 +1126,11 @@ body * {
 .footer__container {
   display: flex;
   align-items: flex-start;
+  gap: 100px;
+}
+.footer__menu {
+  display: flex;
+  gap: 100px;
 }
 .footer__nav {
   display: flex;
@@ -1134,10 +1139,33 @@ body * {
 }
 .footer__title {
   margin: 0;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
 }
 .footer__link {
   margin-top: 15px;
   text-decoration: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+}
+.footer__title {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+}
+.footer__sabtext {
+  max-width: 259px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -16,6 +16,12 @@
     &__container {
         display: flex;
         align-items: flex-start;
+        gap: 100px;
+    }
+
+    &__menu {
+        display: flex;
+        gap: 100px;
 
     }
 
@@ -23,14 +29,40 @@
         display: flex;
         flex-direction: column;
         gap: 15px;
-    } 
+    }
 
     &__title {
         margin: 0;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+
     }
 
     &__link {
         margin-top: 15px;
         text-decoration: none;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.32px;
+    }
+
+    &__title {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+    }
+
+    &__sabtext {
+        max-width: 259px; 
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.32px;
     }
 }
