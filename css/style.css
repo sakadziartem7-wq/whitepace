@@ -1160,7 +1160,7 @@ body * {
   letter-spacing: -0.36px;
 }
 .footer__sabtext {
-  max-width: 259px;
+  width: 259px;
   color: #FFF;
   font-size: 16px;
   font-weight: 400;
