@@ -1125,7 +1125,7 @@ body * {
 }
 .footer__container {
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 100px;
 }
 .footer__menu {
@@ -1155,6 +1155,7 @@ body * {
 }
 .footer__actiov {
   max-width: 259px;
+  margin-left: 100px;
 }
 .footer__title {
   color: #FFF;
@@ -1194,6 +1195,30 @@ body * {
 }
 .footer__button:hover path {
   stroke: #4F9CF9;
+}
+
+.copy {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+  border-top: 1px solid #2E5B8A;
+  padding-top: 32px;
+}
+.copy__list {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  margin: 0;
+  padding: 0;
+}
+.copy__rem {
+  display: flex;
+  gap: 32px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -15,7 +15,7 @@
 
     &__container {
         display: flex;
-        align-items: flex-start;
+        flex-wrap: wrap;
         gap: 100px;
     }
 
@@ -52,6 +52,7 @@
 
     &__actiov {
         max-width: 259px;
+        margin-left: 100px;
     }
 
     &__title {
@@ -98,5 +99,34 @@
             }
         }
 
+    }
+
+}
+
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    border-top: 1px solid #2E5B8A;
+    padding-top: 32px;
+
+    &__list {
+        display: flex;
+        gap: 60px;
+        list-style: none;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.32px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    &__rem {
+        display: flex;
+        gap: 32px;
     }
 }
