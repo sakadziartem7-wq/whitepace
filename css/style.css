@@ -1164,6 +1164,7 @@ body * {
 }
 .footer__sabtext {
   width: 259px;
+  text-wrap: balance;
   color: #FFF;
   font-size: 16px;
   font-weight: 400;
