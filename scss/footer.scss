@@ -50,6 +50,10 @@
         letter-spacing: -0.32px;
     }
 
+    &__actiov {
+        max-width: 259px;
+    }
+
     &__title {
         color: #FFF;
         font-size: 18px;
@@ -58,11 +62,40 @@
     }
 
     &__sabtext {
-        width: 259px; 
+        width: 259px;
         color: #FFF;
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
         letter-spacing: -0.32px;
+    }
+
+    &__button {
+        max-width: 186px;
+        padding: 20px 40px;
+        border-radius: 8px;
+        background: #4F9CF9;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.32px;
+        white-space: nowrap;
+        cursor: pointer;
+        transition: all 0.3s;
+        border: 1px solid #4F9CF9;
+
+        svg {
+            margin-left: 10px;
+        }
+
+        &:hover {
+            background: transparent;
+
+            path {
+                stroke: #4F9CF9;
+            }
+        }
+
     }
 }
