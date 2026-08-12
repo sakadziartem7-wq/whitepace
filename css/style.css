@@ -1220,5 +1220,14 @@ body * {
   display: flex;
   gap: 32px;
 }
+.copy__select {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  background: transparent;
+  border: none;
+}
 
 /*# sourceMappingURL=style.css.map */
