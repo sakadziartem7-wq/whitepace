@@ -610,6 +610,7 @@ body * {
 .YourPlan__grid {
   padding: 123px 0 0;
   display: flex;
+  align-items: center;
   gap: 32px;
 }
 .YourPlan__list {
@@ -618,7 +619,7 @@ body * {
   background: #fff;
   border: 1px solid #FFE492;
   border-radius: 10px;
-  padding: 0 44px;
+  padding: 40px 44px;
 }
 .YourPlan__name {
   color: #212529;
@@ -687,7 +688,7 @@ body * {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   background: #043873;
   list-style: none;
-  padding: 0 44px;
+  padding: 80px 44px;
 }
 .YourPlan__second {
   color: #FFF;
@@ -1028,7 +1029,7 @@ body * {
   border-radius: 10px;
   padding: 60px 40px;
 }
-.says__Description {
+.says__description {
   color: #FFF;
   font-size: 18px;
   font-weight: 400;
