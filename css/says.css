@@ -27,7 +27,7 @@
 }
 .says__list {
   max-width: 471px;
-  width: calc(100% - 64px);
+  width: calc((100% - 64px) / 3);
   background: #fff;
   border-radius: 10px;
   box-shadow: 15px 10px 50px 0 rgba(0, 0, 0, 0.1);
@@ -68,7 +68,7 @@
 }
 .says__listeri {
   max-width: 471px;
-  width: calc(100% - 64px);
+  width: calc((100% - 64px) / 3);
   background: #4F9CF9;
   border-radius: 10px;
   padding: 60px 40px;
