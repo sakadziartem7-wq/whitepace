@@ -3,7 +3,19 @@
     background: #043873;
     padding-top: 140px;
 
+    &__logo {
+        width: 191px;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 100px;
+    }
+
     &__text {
+        width: 240px;
         color: #F7F7EE;
         margin-top: 15px;
         width: 240px;
@@ -15,14 +27,12 @@
 
     &__container {
         display: flex;
-        flex-wrap: wrap;
-        gap: 100px;
+        flex-direction: column;
     }
 
     &__menu {
         display: flex;
         gap: 100px;
-
     }
 
     &__nav {
@@ -32,12 +42,12 @@
     }
 
     &__title {
+        width: 83px;
         margin: 0;
         color: #FFF;
         font-size: 18px;
         font-weight: 700;
         letter-spacing: -0.36px;
-
     }
 
     &__link {
@@ -48,18 +58,26 @@
         font-weight: 400;
         line-height: 20px;
         letter-spacing: -0.32px;
+
+        &:hover {
+            color: #ffe492;
+        }
     }
 
     &__actiov {
         max-width: 259px;
-        margin-left: 100px;
+        margin-left: auto;
     }
 
-    &__title {
+    &__titles {
+        margin: 0;
+        width: 155px;
         color: #FFF;
-        font-size: 18px;
+        font-size: 28px;
         font-weight: 700;
-        letter-spacing: -0.36px;
+        line-height: 36px;
+        letter-spacing: -0.56px;
+
     }
 
     &__sabtext {
@@ -103,7 +121,6 @@
 
 }
 
-
 .copy {
     display: flex;
     justify-content: space-between;
@@ -136,7 +153,6 @@
         font-weight: 400;
         line-height: 20px;
         letter-spacing: -0.32px;
-
         background: transparent;
         border: none;
     }
