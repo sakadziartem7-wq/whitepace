@@ -3,7 +3,8 @@
     top: 0;
     left: 0;
     width: 100%;
-       background: #043873;
+    z-index: 1000;
+    background: #043873;
 
     &__logo {
         display: flex;
@@ -26,7 +27,7 @@
         margin-left: auto;
 
         @media (max-width:1150px) {
-            display: none;    
+            display: none;
         }
     }
 
@@ -37,9 +38,9 @@
         margin-left: 20px;
         background: transparent;
         border: none;
-        
+
         @media (max-width: 1150px) {
-            display: block;  
+            display: block;
         }
 
         @media (max-width: 768px) {
@@ -106,7 +107,7 @@
         letter-spacing: -0.36px;
         cursor: pointer;
         transition: all 0.3s;
-          flex: 0 0 auto;
+        flex: 0 0 auto;
         border: 1px solid #4F9CF9;
 
         &:hover {
@@ -129,4 +130,3 @@
         }
     }
 }
-
