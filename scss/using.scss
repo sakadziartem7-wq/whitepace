@@ -51,6 +51,10 @@
 
       &:hover {
          background: transparent;
+
+         path {
+            stroke: #4F9CF9;
+         }
       }
 
       svg {

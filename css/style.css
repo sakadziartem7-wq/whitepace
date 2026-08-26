@@ -948,6 +948,9 @@ body * {
 .using__button:hover {
   background: transparent;
 }
+.using__button:hover path {
+  stroke: #4F9CF9;
+}
 .using__button svg {
   margin-left: 10px;
 }
@@ -1090,6 +1093,9 @@ body * {
 }
 .today__button:hover {
   background: transparent;
+}
+.today__button:hover path {
+  stroke: #4F9CF9;
 }
 .today__subtitle {
   color: #FFF;
