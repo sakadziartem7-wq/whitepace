@@ -3,11 +3,12 @@
   overflow: hidden;
   background: #043873;
   padding-top: 140px;
+  margin-top: 140px;
 }
 .work__br {
   position: absolute;
   left: 0;
-  top: 0;
+  top: -10px;
 }
 .work__title {
   color: #FFF;
