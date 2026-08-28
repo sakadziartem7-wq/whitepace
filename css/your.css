@@ -25,6 +25,7 @@
   bottom: -18px;
 }
 .data__text {
+  width: 800px;
   color: #212529;
   font-size: 18px;
   font-weight: 400;
