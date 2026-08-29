@@ -7,6 +7,11 @@
   z-index: 1000;
   background: #043873;
 }
+@media (max-width: 768px) {
+  .header {
+    height: 66px;
+  }
+}
 .header__logo {
   display: flex;
   text-decoration: none;

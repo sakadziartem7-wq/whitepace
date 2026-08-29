@@ -6,6 +6,10 @@
     height: 92px;
     z-index: 1000;
     background: #043873;
+    
+    @media (max-width:768px) {
+        height: 66px;
+    }
 
     &__logo {
         display: flex;

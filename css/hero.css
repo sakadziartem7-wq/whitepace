@@ -20,12 +20,17 @@
   }
 }
 .hero__rem {
-  width: 656px;
+  max-width: 656px;
 }
 @media (max-width: 1152px) {
   .hero__rem {
     max-width: 565px;
     flex: 1;
+  }
+}
+@media (max-width: 768px) {
+  .hero__rem {
+    max-width: 728px;
   }
 }
 .hero__title {
@@ -41,9 +46,17 @@
 @media (max-width: 768px) {
   .hero__title {
     font-size: 54px;
+    letter-spacing: -1.08px;
+  }
+}
+@media (max-width: 320px) {
+  .hero__title {
+    font-size: 36px;
+    letter-spacing: -0.72px;
   }
 }
 .hero__text {
+  margin-top: 0;
   max-width: 656px;
   color: #FFF;
   font-size: 18px;
@@ -86,6 +99,7 @@
 }
 .hero__button {
   margin-top: 60px;
+  margin-bottom: 0;
   padding: 20px;
   border-radius: 8px;
   background: #4F9CF9;

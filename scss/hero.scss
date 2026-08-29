@@ -20,14 +20,16 @@
     }
 
     &__rem {
-        width: 656px;
+        max-width: 656px;
 
         @media (max-width:1152px) {
             max-width: 565px;
             flex: 1;
         }
 
-       
+        @media (max-width:768px) {
+            max-width: 728px;
+        }
     }
 
     &__title {
@@ -42,11 +44,19 @@
 
         @media (max-width:768px) {
             font-size: 54px;
+            letter-spacing: -1.08px;
         }
+
+        @media (max-width:320px) {
+            font-size: 36px;
+            letter-spacing: -0.72px;
+        }
+
 
     }
 
     &__text {
+        margin-top: 0;
         max-width: 656px;
         color: #FFF;
         font-size: 18px;
@@ -54,9 +64,9 @@
         line-height: 30px;
         letter-spacing: -0.36px;
 
-    @media (max-width:768px ) {
-        max-width: 728px;
-    }
+        @media (max-width:768px) {
+            max-width: 728px;
+        }
 
     }
 
@@ -88,6 +98,7 @@
 
     &__button {
         margin-top: 60px;
+        margin-bottom: 0;
         padding: 20px;
         border-radius: 8px;
         background: #4F9CF9;
