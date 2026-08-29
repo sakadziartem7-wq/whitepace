@@ -24,7 +24,6 @@
             max-width: 528px;
         }
 
-
         @media (max-width: 760px) {
             max-width: 100%;
         }
@@ -163,6 +162,9 @@
             gap: 160px;
         }
 
+        @media (max-width:750px) {
+           flex-direction: column;
+        }
     }
 
     &__work-content {

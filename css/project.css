@@ -157,6 +157,11 @@
     gap: 160px;
   }
 }
+@media (max-width: 750px) {
+  .project__link {
+    flex-direction: column;
+  }
+}
 .project__work-content {
   max-width: 670px;
 }
