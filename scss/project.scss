@@ -8,7 +8,7 @@
         align-items: center;
         gap: 60px;
 
-        @media (max-width:760px) {
+        @media (max-width:768px) {
             flex-direction: column;
         }
     }
@@ -24,7 +24,7 @@
             max-width: 528px;
         }
 
-        @media (max-width: 760px) {
+        @media (max-width: 768px) {
             max-width: 728px;
         }
     }
@@ -39,10 +39,11 @@
         margin-bottom: 24px;
         margin-top: 0;
 
-        @media (max-width:760px) {
+        @media (max-width:768px) {
             max-width: 728px;
             font-size: 54px;
-            white-space: nowrap;
+        
+            letter-spacing: -1.08px;
         }
 
         span {
@@ -74,6 +75,10 @@
         @media (max-width:1152px) {
             max-width: 436px;
         }
+
+        @media (max-width:768px) {
+            max-width: 728px;
+        }
     }
 
     &__square {
@@ -93,7 +98,7 @@
             height: 384px;
         }
 
-        @media (max-width:750px) {
+        @media (max-width:768px) {
             width: 100%;
             height: 349px;
         }
@@ -168,7 +173,7 @@
             gap: 160px;
         }
 
-        @media (max-width:750px) {
+        @media (max-width:768px) {
            flex-direction: column-reverse;
         }
     }
