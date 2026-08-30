@@ -71,6 +71,7 @@
 @media (max-width: 768px) {
   .project__title span svg {
     left: 0;
+    width: 500px;
   }
 }
 .project__text {
@@ -148,6 +149,12 @@
   left: -140px;
   pointer-events: none;
 }
+@media (max-width: 768px) {
+  .project__bt {
+    top: -55px;
+    left: -194px;
+  }
+}
 .project__work {
   padding-top: 100px;
 }
@@ -192,6 +199,12 @@
 .project__work-content {
   max-width: 670px;
 }
+@media (max-width: 768px) {
+  .project__work-content {
+    max-width: 728px;
+    text-align: center;
+  }
+}
 .project__work-title {
   max-width: 670px;
   color: #212529;
@@ -200,6 +213,13 @@
   line-height: normal;
   letter-spacing: -1.44px;
   margin-bottom: 24px;
+}
+@media (max-width: 768px) {
+  .project__work-title {
+    max-width: 728px;
+    font-size: 54px;
+    letter-spacing: -1.08px;
+  }
 }
 .project__work-title span {
   position: relative;
@@ -226,6 +246,12 @@
 @media (max-width: 1150px) {
   .project__work-text {
     width: 527px;
+  }
+}
+@media (max-width: 768px) {
+  .project__work-text {
+    max-width: 728px;
+    letter-spacing: -0.36px;
   }
 }
 .project__work-button {
