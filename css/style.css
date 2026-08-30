@@ -461,7 +461,7 @@ body * {
     max-width: 528px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .project__work-img {
     width: 100%;
   }
