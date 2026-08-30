@@ -163,7 +163,6 @@
 
     &__work-img {
         flex: 0 1 50%;
-        max-width: 710px;
         width: 100px;
         margin-bottom: 140px;
 
@@ -176,7 +175,7 @@
         }
 
         @media (max-width:750px) {
-            max-width: 458px;
+           width: 100%;
         }
     }
 

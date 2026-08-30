@@ -448,7 +448,6 @@ body * {
 }
 .project__work-img {
   flex: 0 1 50%;
-  max-width: 710px;
   width: 100px;
   margin-bottom: 140px;
 }
@@ -464,7 +463,7 @@ body * {
 }
 @media (max-width: 750px) {
   .project__work-img {
-    max-width: 458px;
+    width: 100%;
   }
 }
 .project__link {
