@@ -340,6 +340,12 @@ body * {
     display: none;
   }
 }
+@media (max-width: 320px) {
+  .project__title {
+    max-width: 288px;
+    font-size: 36px;
+  }
+}
 .project__title span {
   position: relative;
   display: inline-block;
@@ -379,6 +385,11 @@ body * {
 @media (max-width: 768px) {
   .project__text {
     max-width: 728px;
+  }
+}
+@media (max-width: 320px) {
+  .project__text {
+    max-width: 280px;
   }
 }
 .project__square {

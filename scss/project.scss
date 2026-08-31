@@ -50,6 +50,11 @@
             }
         }
 
+        @media (max-width:320px) {
+            max-width: 288px;
+            font-size: 36px;
+        }
+
         span {
             position: relative;
             display: inline-block;
@@ -89,6 +94,11 @@
 
         @media (max-width:768px) {
             max-width: 728px;
+
+        }
+
+         @media (max-width:320px) {
+            max-width: 280px;
 
         }
     }
@@ -174,7 +184,7 @@
         }
 
         @media (max-width:768px) {
-           width: 458px;
+            width: 458px;
         }
     }
 
