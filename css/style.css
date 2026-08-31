@@ -329,7 +329,6 @@ body * {
   letter-spacing: -1.44px;
   margin-bottom: 24px;
   margin-top: 0;
-  white-space: nowrap;
 }
 @media (max-width: 768px) {
   .project__title {
