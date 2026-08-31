@@ -259,7 +259,7 @@
 }
 @media (max-width: 768px) {
   .project__work-text {
-    max-width: 728px;
+    width: 728px;
     letter-spacing: -0.36px;
   }
 }

@@ -152,6 +152,9 @@
         &__btr {
             margin-left: 10px;
         }
+
+
+        
     }
 
     &__bt {
@@ -258,7 +261,7 @@
         }
 
         @media (max-width:768px) {
-            max-width: 728px;
+            width: 728px;
             letter-spacing: -0.36px;
         }
 
