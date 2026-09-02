@@ -18,6 +18,7 @@
   }
 }
 .extension__title {
+  margin-top: 0;
   margin-bottom: 24px;
   color: #FFF;
   font-size: 72px;
@@ -35,12 +36,24 @@
   max-width: 500px;
 }
 .extension__text {
+  width: 670px;
+  margin-top: 0;
   margin-bottom: 50px;
   color: #FFF;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.36px;
+}
+@media (max-width: 1400px) {
+  .extension__text {
+    width: 552px;
+  }
+}
+@media (max-width: 1152px) {
+  .extension__text {
+    width: 528px;
+  }
 }
 .extension__button {
   padding: 20px 40px;
