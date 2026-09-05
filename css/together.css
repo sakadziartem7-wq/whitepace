@@ -1,0 +1,124 @@
+.together__work {
+  padding-top: 100px;
+}
+.together__work-img {
+  flex: 0 1 50%;
+  width: 100px;
+  margin-bottom: 140px;
+}
+@media (max-width: 1400px) {
+  .together__work-img {
+    max-width: 583px;
+  }
+}
+@media (max-width: 1150px) {
+  .together__work-img {
+    max-width: 528px;
+  }
+}
+@media (max-width: 768px) {
+  .together__work-img {
+    width: 458px;
+  }
+}
+.together__link {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+@media (max-width: 1400px) {
+  .together__link {
+    gap: 160px;
+  }
+}
+@media (max-width: 768px) {
+  .together__link {
+    flex-direction: column-reverse;
+  }
+}
+.together__work-content {
+  max-width: 670px;
+}
+@media (max-width: 768px) {
+  .together__work-content {
+    max-width: 728px;
+    text-align: center;
+  }
+}
+.together__work-title {
+  max-width: 670px;
+  color: #212529;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  margin-bottom: 24px;
+}
+@media (max-width: 768px) {
+  .together__work-title {
+    max-width: 728px;
+    font-size: 54px;
+    letter-spacing: -1.08px;
+  }
+}
+.together__work-title span {
+  position: relative;
+}
+.together__work-title span svg {
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+}
+.together__work-text {
+  width: 670px;
+  color: #212529;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-bottom: 60px;
+}
+@media (max-width: 1400px) {
+  .together__work-text {
+    width: 593px;
+  }
+}
+@media (max-width: 1150px) {
+  .together__work-text {
+    width: 527px;
+  }
+}
+@media (max-width: 768px) {
+  .together__work-text {
+    width: 728px;
+    letter-spacing: -0.36px;
+  }
+}
+.together__work-button {
+  margin-bottom: 183px;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: #4F9CF9;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.36px;
+  transition: all 0.3s;
+  border: 1px solid #4F9CF9;
+  cursor: pointer;
+}
+.together__work-button:hover {
+  background-color: transparent;
+  color: #4F9CF9;
+}
+.together__work-button:hover path {
+  stroke: #4F9CF9;
+}
+.together__work-button svg {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=together.css.map */

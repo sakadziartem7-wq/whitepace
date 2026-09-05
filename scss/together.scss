@@ -1,0 +1,127 @@
+.together {
+       &__work {
+        padding-top: 100px;
+    }
+
+    &__work-img {
+        flex: 0 1 50%;
+        width: 100px;
+        margin-bottom: 140px;
+
+        @media (max-width:1400px) {
+            max-width: 583px;
+        }
+
+        @media (max-width:1150px) {
+            max-width: 528px;
+        }
+
+        @media (max-width:768px) {
+            width: 458px;
+        }
+    }
+
+    &__link {
+        padding-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+
+        @media (max-width:1400px) {
+            gap: 160px;
+        }
+
+        @media (max-width:768px) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    &__work-content {
+        max-width: 670px;
+
+        @media (max-width:768px) {
+            max-width: 728px;
+            text-align: center;
+        }
+    }
+
+    &__work-title {
+        max-width: 670px;
+        color: #212529;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1.44px;
+        margin-bottom: 24px;
+
+        @media (max-width:768px) {
+            max-width: 728px;
+            font-size: 54px;
+            letter-spacing: -1.08px;
+        }
+
+
+        span {
+            position: relative;
+
+            svg {
+                position: absolute;
+                left: 0;
+                bottom: -8px;
+            }
+        }
+    }
+
+    &__work-text {
+        width: 670px;
+        color: #212529;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.36px;
+        margin-bottom: 60px;
+
+        @media (max-width:1400px) {
+            width: 593px;
+        }
+
+        @media (max-width:1150px) {
+            width: 527px;
+        }
+
+        @media (max-width:768px) {
+            width: 728px;
+            letter-spacing: -0.36px;
+        }
+
+    }
+
+    &__work-button {
+        margin-bottom: 183px;
+        padding: 20px 40px;
+        border-radius: 8px;
+        background: #4F9CF9;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: -0.36px;
+        transition: all 0.3s;
+        border: 1px solid #4F9CF9;
+        cursor: pointer;
+
+        &:hover {
+            background-color: transparent;
+            color: #4F9CF9;
+
+            path {
+                stroke: #4F9CF9;
+            }
+        }
+
+        svg {
+            margin-left: 10px;
+        }
+    }
+}
