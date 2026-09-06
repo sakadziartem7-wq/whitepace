@@ -6,7 +6,7 @@
         position: relative;
         display: flex;
         align-items: center;
-        gap: 60px;
+     
 
         @media (max-width:768px) {
             flex-direction: column;
@@ -15,7 +15,7 @@
 
     &__content {
         max-width: 672px;
-
+        padding-right: 60px;
         @media (max-width: 1400px) {
             max-width: 617px;
         }
@@ -71,7 +71,7 @@
 
                 @media (max-width:768px) {
                     left: 0;
-                    width: 500px;
+                    width: 370px;
 
                 }
             }
@@ -102,11 +102,9 @@
 
         }
     }
-
     &__square {
         padding-top: 140px;
-        flex: 1 1 748px;
-        max-width: 748px;
+        width: 748px;
         height: 547px;
         background: #C4DEFD;
 
@@ -123,6 +121,12 @@
         @media (max-width:768px) {
             width: 100%;
             height: 349px;
+            margin-top: 60px;
+        }
+        
+        @media (max-width:320px) {
+            width: 100%;
+            height: 177px;
         }
     }
 
@@ -151,7 +155,7 @@
 
         &__btr {
             margin-left: 10px;
-        }
+        } 
     }
 
     &__bt {

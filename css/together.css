@@ -8,6 +8,11 @@
   width: 50%;
   margin-bottom: 0;
 }
+@media (max-width: 768px) {
+  .together__work-img {
+    width: 100%;
+  }
+}
 .together__link {
   padding-top: 100px;
   display: flex;
@@ -23,15 +28,20 @@
   padding-left: 100px;
   width: 50%;
 }
+@media (max-width: 1400px) {
+  .together__work-content {
+    padding-left: 50px;
+  }
+}
 @media (max-width: 768px) {
   .together__work-content {
-    max-width: 728px;
+    width: 100%;
+    padding-left: 0;
     text-align: center;
   }
 }
 .together__work-title {
   margin-top: 0;
-  max-width: 670px;
   color: #212529;
   font-size: 72px;
   font-weight: 700;
@@ -43,7 +53,14 @@
   .together__work-title {
     max-width: 728px;
     font-size: 54px;
+    white-space: nowrap;
     letter-spacing: -1.08px;
+  }
+}
+@media (max-width: 320px) {
+  .together__work-title {
+    max-width: 228px;
+    font-size: 36px;
   }
 }
 .together__work-title span {
@@ -62,6 +79,17 @@
   line-height: 30px;
   letter-spacing: -0.36px;
   margin-bottom: 60px;
+}
+@media (max-width: 1400px) {
+  .together__work-text {
+    width: 100%;
+    max-width: 593px;
+  }
+}
+@media (max-width: 768px) {
+  .together__work-text {
+    max-width: 728px;
+  }
 }
 .together__work-button {
   margin-bottom: 183px;
