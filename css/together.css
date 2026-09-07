@@ -6,11 +6,12 @@
 }
 .together__work-img {
   width: 50%;
-  margin-bottom: 0;
+  margin-bottom: 100px;
 }
 @media (max-width: 768px) {
   .together__work-img {
     width: 100%;
+    margin-bottom: 100px;
   }
 }
 .together__link {
@@ -45,14 +46,13 @@
   color: #212529;
   font-size: 72px;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: -1.44px;
   margin-bottom: 24px;
 }
 @media (max-width: 768px) {
   .together__work-title {
-    max-width: 728px;
-    font-size: 54px;
+    max-width: 100%;
+    font-size: min(54px, 11vw);
     white-space: nowrap;
     letter-spacing: -1.08px;
   }
