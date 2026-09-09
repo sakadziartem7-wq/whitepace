@@ -1398,6 +1398,11 @@ body * {
   left: 0;
   bottom: -8px;
 }
+@media (max-width: 320px) {
+  .together__work-title span svg {
+    width: 100%;
+  }
+}
 .together__work-text {
   margin-top: 0;
   color: #212529;
