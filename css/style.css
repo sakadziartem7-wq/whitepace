@@ -627,13 +627,26 @@ body * {
 .needs__man {
   display: flex;
   align-items: center;
-  gap: 93px;
+}
+@media (max-width: 768px) {
+  .needs__man {
+    flex-direction: column;
+  }
 }
 .needs__item {
-  max-width: 669px;
-  flex-shrink: 1;
+  width: 50%;
+  padding-left: 98px;
+}
+@media (max-width: 768px) {
+  .needs__item {
+    width: 728px;
+    text-align: center;
+    padding-left: 0;
+  }
 }
 .needs__title {
+  max-width: 669px;
+  margin-top: 0;
   margin-bottom: 24px;
   color: #212529;
   font-size: 72px;
@@ -641,23 +654,44 @@ body * {
   line-height: normal;
   letter-spacing: -1.44px;
 }
+@media (max-width: 768px) {
+  .needs__title {
+    font-size: 54px;
+    margin-top: 60px;
+  }
+}
 .needs__title span {
   position: relative;
 }
 .needs__title span svg {
   position: absolute;
-  left: 0;
-  bottom: -9px;
-  max-width: 540px;
+  right: -56px;
+  bottom: -8px;
+  max-width: 548px;
 }
 .needs__text {
-  max-width: 666px;
+  margin-top: 0;
   margin-bottom: 60px;
   color: #212529;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.36px;
+}
+@media (max-width: 1400px) {
+  .needs__text {
+    width: 606px;
+  }
+}
+@media (max-width: 1152px) {
+  .needs__text {
+    max-width: 494px;
+  }
+}
+@media (max-width: 768px) {
+  .needs__text {
+    min-width: 728px;
+  }
 }
 .needs__button {
   padding: 20px 40px;
@@ -683,11 +717,21 @@ body * {
   margin-left: 10px;
 }
 .needs__square {
-  margin-top: 140px;
-  flex-shrink: 0;
   width: 714px;
   height: 532px;
   background: #C4DEFD;
+}
+@media (max-width: 1400px) {
+  .needs__square {
+    width: 670px;
+    height: 499px;
+  }
+}
+@media (max-width: 1400px) {
+  .needs__square {
+    width: 534px;
+    height: 397px;
+  }
 }
 
 .YourPlan {
