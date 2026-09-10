@@ -663,7 +663,6 @@ body * {
 }
 .needs__title span {
   position: relative;
-  display: inline-block;
 }
 @media (max-width: 768px) {
   .needs__title span br {
@@ -672,6 +671,7 @@ body * {
 }
 .needs__title span svg {
   position: absolute;
+  display: inline-block;
   right: -56px;
   bottom: -8px;
   max-width: 548px;
@@ -679,6 +679,13 @@ body * {
 @media (max-width: 768px) {
   .needs__title span svg {
     left: 110px;
+    bottom: -12px;
+    max-width: 250px;
+  }
+}
+@media (max-width: 320px) {
+  .needs__title span svg {
+    left: -60px;
     bottom: -12px;
     max-width: 250px;
   }
