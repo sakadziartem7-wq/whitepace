@@ -631,11 +631,17 @@ body * {
 @media (max-width: 768px) {
   .needs__man {
     flex-direction: column;
+    gap: 40px;
   }
 }
 .needs__item {
   width: 50%;
   padding-left: 98px;
+}
+@media (max-width: 1152px) {
+  .needs__item {
+    padding-left: 40px;
+  }
 }
 @media (max-width: 768px) {
   .needs__item {
@@ -700,7 +706,8 @@ body * {
 }
 @media (max-width: 1400px) {
   .needs__text {
-    width: 606px;
+    max-width: 606px;
+    width: 100%;
   }
 }
 @media (max-width: 1152px) {
