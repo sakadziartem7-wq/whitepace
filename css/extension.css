@@ -16,7 +16,7 @@
 .extension__content {
   max-width: 697px;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .extension__content {
     max-width: 552px;
   }
@@ -40,7 +40,7 @@
 .extension__title br {
   display: none;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .extension__title {
     max-width: 552px;
   }
@@ -84,7 +84,7 @@
   line-height: 30px;
   letter-spacing: -0.36px;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .extension__text {
     width: 552px;
   }

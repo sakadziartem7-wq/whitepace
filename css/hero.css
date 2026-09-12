@@ -76,7 +76,7 @@
   height: 545px;
   background: #C4DEFD;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .hero__square {
     max-width: 685px;
     height: 456px;

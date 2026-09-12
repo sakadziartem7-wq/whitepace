@@ -11,9 +11,9 @@ body * {
   max-width: 1480px;
   padding: 0 20px;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .container {
-    padding: 0 50px;
+    padding: 0 52px;
   }
 }
 @media (max-width: 1152px) {

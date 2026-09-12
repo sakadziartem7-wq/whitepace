@@ -16,7 +16,7 @@
   max-width: 672px;
   padding-right: 60px;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .project__content {
     max-width: 617px;
   }
@@ -110,7 +110,7 @@
   height: 547px;
   background: #C4DEFD;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .project__square {
     max-width: 719px;
     height: 448px;
