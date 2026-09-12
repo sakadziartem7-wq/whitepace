@@ -3,7 +3,11 @@
     background: #043873;
     background-image: url(../images/hero/Element.svg);
     background-size: cover;
-    padding-top: 140px;
+    padding:140px 0;
+
+    @media (max-width:768px) {
+        padding-top: 206px;
+    }
 
     &__elem {
         display: flex;
@@ -43,6 +47,8 @@
         margin-top: 0;
 
         @media (max-width:768px) {
+            margin-left: auto;
+            margin-right: auto;
             font-size: 54px;
             letter-spacing: -1.08px;
         }
@@ -91,7 +97,7 @@
             margin-bottom: 100px;
         }
 
-         @media (max-width: 320px) {
+        @media (max-width: 320px) {
             width: 100%;
             height: 191px;
         }
