@@ -6,7 +6,6 @@
         position: relative;
         display: flex;
         align-items: center;
-     
 
         @media (max-width:768px) {
             flex-direction: column;
@@ -14,31 +13,37 @@
     }
 
     &__content {
-        max-width: 672px;
+        max-width: 732px;
         padding-right: 60px;
+
         @media (max-width: 1440px) {
             max-width: 617px;
         }
 
         @media (max-width: 1152px) {
-            max-width: 528px;
+            padding-right: 94px;
+            max-width: 528px;  
         }
 
         @media (max-width: 768px) {
             max-width: 728px;
             text-align: center;
+            padding-right: 0;
         }
+
+         @media (max-width: 320px) {
+            max-width: 288px;
+         }
     }
 
     &__title {
-        max-width: 672px;
+        max-width: 669px;
         color: #212529;
         font-size: 72px;
         font-weight: 700;
         line-height: normal;
         letter-spacing: -1.44px;
-        margin-bottom: 24px;
-        margin-top: 0;
+        margin: 0 auto 24px;
 
         @media (max-width:768px) {
             max-width: 728px;
@@ -79,7 +84,7 @@
     }
 
     &__text {
-        max-width: 672px;
+        max-width: 654px;
         margin-top: 24px;
         margin-bottom: 0;
         color: #212529;
@@ -93,17 +98,19 @@
         }
 
         @media (max-width:768px) {
-            max-width: 728px;
+            max-width:683px;
 
         }
 
-         @media (max-width:320px) {
-            max-width: 280px;
-
+        @media (max-width:320px) {
+            width: 288px;
+            padding-left: 0;
         }
     }
+
     &__square {
-        width: 748px;
+        width: 100%;
+        max-width: 748px;
         height: 547px;
         background: #C4DEFD;
 
@@ -122,7 +129,7 @@
             height: 349px;
             margin-top: 60px;
         }
-        
+
         @media (max-width:320px) {
             width: 100%;
             height: 177px;
@@ -154,7 +161,7 @@
 
         &__btr {
             margin-left: 10px;
-        } 
+        }
     }
 
     &__bt {
