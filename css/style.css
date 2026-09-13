@@ -311,6 +311,11 @@ body * {
   overflow: hidden;
   padding-top: 140px;
 }
+@media (max-width: 768px) {
+  .project {
+    padding: 50px 0;
+  }
+}
 .project__top {
   position: relative;
   display: flex;
@@ -363,9 +368,6 @@ body * {
     font-size: 54px;
     letter-spacing: -1.08px;
   }
-  .project__title br {
-    display: none;
-  }
 }
 @media (max-width: 320px) {
   .project__title {
@@ -391,7 +393,7 @@ body * {
 @media (max-width: 768px) {
   .project__title span svg {
     left: 0;
-    width: 370px;
+    width: 470px;
   }
 }
 .project__text {
