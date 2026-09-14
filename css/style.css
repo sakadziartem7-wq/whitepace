@@ -572,6 +572,7 @@ body * {
   left: 0;
   bottom: -8px;
   max-width: 500px;
+  z-index: 1;
 }
 @media (max-width: 768px) {
   .extension__title span svg {
