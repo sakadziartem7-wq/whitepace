@@ -51,6 +51,7 @@ body * {
   font-size: 28px;
   font-weight: 700;
   line-height: normal;
+  gap: 10px;
 }
 .header__container {
   display: flex;
@@ -181,6 +182,7 @@ body * {
 @media (max-width: 768px) {
   .hero {
     padding-top: 206px;
+    padding-bottom: 60px;
   }
 }
 .hero__elem {
@@ -194,7 +196,7 @@ body * {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 24px;
+    gap: 60px;
   }
 }
 .hero__rem {
@@ -202,8 +204,7 @@ body * {
 }
 @media (max-width: 1152px) {
   .hero__rem {
-    max-width: 565px;
-    flex: 1;
+    max-width: 532px;
   }
 }
 @media (max-width: 768px) {
@@ -271,8 +272,7 @@ body * {
   .hero__square {
     width: 100%;
     height: 367px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 50px 0;
   }
 }
 @media (max-width: 320px) {
@@ -495,6 +495,7 @@ body * {
   background-image: url("../images/extension/Customise it to your needs.png");
   min-height: 759px;
   overflow: hidden;
+  padding: 140px 0;
 }
 @media (max-width: 768px) {
   .extension {
@@ -509,7 +510,6 @@ body * {
 .extension__row {
   display: flex;
   align-items: center;
-  gap: 98px;
 }
 @media (max-width: 768px) {
   .extension__row {
@@ -518,7 +518,10 @@ body * {
   }
 }
 .extension__content {
-  max-width: 697px;
+  width: 100%;
+  max-width: 795px;
+  padding-right: 98px;
+  box-sizing: border-box;
 }
 @media (max-width: 1440px) {
   .extension__content {
@@ -528,6 +531,7 @@ body * {
 @media (max-width: 768px) {
   .extension__content {
     max-width: 100%;
+    padding-right: 0;
     text-align: center;
   }
 }
@@ -554,10 +558,10 @@ body * {
 }
 @media (max-width: 768px) {
   .extension__title {
+    max-width: 100%;
     white-space: normal;
     font-size: 54px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
   }
 }
 .extension__title span {
@@ -623,11 +627,11 @@ body * {
   margin-left: 10px;
 }
 .extension__square {
-  margin-bottom: 140px;
-  width: 686px;
+  margin: 70px 0;
+  width: 100%;
+  max-width: 686px;
   height: 479px;
   background: #C4DEFD;
-  margin-top: 140px;
 }
 @media (max-width: 1152px) {
   .extension__square {

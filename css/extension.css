@@ -2,6 +2,7 @@
   background-image: url("../images/extension/Customise it to your needs.png");
   min-height: 759px;
   overflow: hidden;
+  padding: 140px 0;
 }
 @media (max-width: 768px) {
   .extension {
@@ -16,7 +17,6 @@
 .extension__row {
   display: flex;
   align-items: center;
-  gap: 98px;
 }
 @media (max-width: 768px) {
   .extension__row {
@@ -25,7 +25,10 @@
   }
 }
 .extension__content {
-  max-width: 697px;
+  width: 100%;
+  max-width: 795px;
+  padding-right: 98px;
+  box-sizing: border-box;
 }
 @media (max-width: 1440px) {
   .extension__content {
@@ -35,6 +38,7 @@
 @media (max-width: 768px) {
   .extension__content {
     max-width: 100%;
+    padding-right: 0;
     text-align: center;
   }
 }
@@ -61,10 +65,10 @@
 }
 @media (max-width: 768px) {
   .extension__title {
+    max-width: 100%;
     white-space: normal;
     font-size: 54px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
   }
 }
 .extension__title span {
@@ -130,11 +134,11 @@
   margin-left: 10px;
 }
 .extension__square {
-  margin-bottom: 140px;
-  width: 686px;
+  margin: 70px 0;
+  width: 100%;
+  max-width: 686px;
   height: 479px;
   background: #C4DEFD;
-  margin-top: 140px;
 }
 @media (max-width: 1152px) {
   .extension__square {
