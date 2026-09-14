@@ -1,6 +1,6 @@
 .together {
   overflow: hidden;
-  padding: 50px 0;
+  padding-top: 100px;
 }
 .together__work-img {
   width: 50%;
@@ -105,8 +105,12 @@
   }
 }
 .together__work-button {
-  margin-bottom: 183px;
-  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 186px;
+  gap: 10px;
+  height: 63px;
   border-radius: 8px;
   background: #4F9CF9;
   color: #FFF;
@@ -118,15 +122,17 @@
   border: 1px solid #4F9CF9;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .together__work-button {
+    margin: 50px auto;
+  }
+}
 .together__work-button:hover {
   background-color: transparent;
   color: #4F9CF9;
 }
 .together__work-button:hover path {
   stroke: #4F9CF9;
-}
-.together__work-button svg {
-  margin-left: 10px;
 }
 
 /*# sourceMappingURL=together.css.map */

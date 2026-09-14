@@ -4,6 +4,11 @@
   overflow: hidden;
   padding: 140px 0;
 }
+@media (max-width: 768px) {
+  .extension {
+    padding: 50px 0;
+  }
+}
 @media (max-width: 320px) {
   .extension {
     padding: 40px 0;
@@ -27,7 +32,7 @@
 }
 @media (max-width: 1440px) {
   .extension__content {
-    max-width: 650px;
+    max-width: px;
   }
 }
 @media (max-width: 768px) {
