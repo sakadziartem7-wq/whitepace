@@ -27,18 +27,16 @@
         z-index: 2;
         width: 100%;
         max-width: 795px;
-        padding-right: 98px;
+        padding-right: 98px; 
         box-sizing: border-box;
 
-       
-
-         @media (max-width:1152px) {
-            max-width: 626px; 
+        @media (max-width:1152px) {
+            max-width: 100%;
+           padding-right: 30px;
         }
 
         @media (max-width:768px) {
-            max-width: 100%;
-             padding-right: 0;
+            padding-right: 0;
             text-align: center;
         }
     }
@@ -53,19 +51,18 @@
         line-height: normal;
         letter-spacing: -1.44px;
 
-
         @media (max-width:1440px) {
             max-width: 544px;
+            
         }
 
         @media (max-width:1152px) {
             max-width: 528px;
-            white-space: nowrap;
+            font-size: 64px;
         }
 
         @media (max-width:768px) {
             max-width: 100%;
-            white-space: normal;
             font-size: 54px;
             text-align: center;
         }
@@ -83,13 +80,12 @@
                     width: 370px;
                 }
             }
-
         }
-
     }
 
     &__text {
-        width: 670px;
+        width: 100%;
+        max-width: 670px;
         margin-top: 0;
         margin-bottom: 50px;
         color: #FFF;
@@ -99,15 +95,14 @@
         letter-spacing: -0.36px;
 
         @media (max-width:1440px) {
-            width: 552px;
+            max-width: 552px;
         }
 
         @media (max-width:1152px) {
-            width: 528px;
+            max-width: 528px;
         }
 
         @media (max-width:768px) {
-            width: 100%;
             max-width: 704px;
         }
     }
@@ -145,12 +140,10 @@
         height: 479px;
         background: #C4DEFD;
 
-
         @media (max-width:1152px) {
             max-width: 459px;
-            height: 320px;
+            height: 321px;
         }
-
         @media (max-width:768px) {
             margin-top: 0;
             width: 100%;
@@ -161,6 +154,5 @@
             width: 100%;
             height: 199px;
         }
-
     }
 }
