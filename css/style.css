@@ -495,6 +495,7 @@ body * {
 .extension {
   background-image: url("../images/extension/Customise it to your needs.png");
   min-height: 759px;
+  overflow: hidden;
   padding: 140px 0;
 }
 @media (max-width: 768px) {
@@ -524,11 +525,6 @@ body * {
   max-width: 795px;
   padding-right: 98px;
   box-sizing: border-box;
-}
-@media (max-width: 1440px) {
-  .extension__content {
-    max-width: 650px;
-  }
 }
 @media (max-width: 1152px) {
   .extension__content {
