@@ -327,6 +327,8 @@ body * {
   }
 }
 .project__content {
+  position: relative;
+  z-index: 2;
   max-width: 732px;
   padding-right: 60px;
 }
@@ -493,7 +495,6 @@ body * {
 .extension {
   background-image: url("../images/extension/Customise it to your needs.png");
   min-height: 759px;
-  overflow: hidden;
   padding: 140px 0;
 }
 @media (max-width: 768px) {
@@ -517,6 +518,8 @@ body * {
   }
 }
 .extension__content {
+  position: relative;
+  z-index: 2;
   width: 100%;
   max-width: 795px;
   padding-right: 98px;
@@ -524,7 +527,12 @@ body * {
 }
 @media (max-width: 1440px) {
   .extension__content {
-    max-width: px;
+    max-width: 650px;
+  }
+}
+@media (max-width: 1152px) {
+  .extension__content {
+    max-width: 626px;
   }
 }
 @media (max-width: 768px) {
@@ -571,7 +579,6 @@ body * {
   left: 0;
   bottom: -8px;
   max-width: 500px;
-  z-index: 1;
 }
 @media (max-width: 768px) {
   .extension__title span svg {
@@ -635,7 +642,7 @@ body * {
 }
 @media (max-width: 1152px) {
   .extension__square {
-    width: 459px;
+    max-width: 459px;
     height: 320px;
   }
 }
