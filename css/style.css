@@ -337,7 +337,7 @@ body * {
 }
 @media (max-width: 1152px) {
   .project__content {
-    padding-right: 40px;
+    padding-right: 50px;
     max-width: 528px;
   }
 }
