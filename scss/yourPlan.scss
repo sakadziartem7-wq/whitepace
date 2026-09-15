@@ -2,11 +2,16 @@
     overflow: hidden;
     padding-top: 140px;
 
+    &__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
     &__title {
+        margin-top: 0;
         max-width: 1481px;
-        text-align: center;
         color: #212529;
-        text-align: center;
         font-size: 72px;
         font-weight: 700;
         line-height: normal;
@@ -24,7 +29,8 @@
     }
 
     &__text {
-        margin: 0 auto;
+        margin-top: 0;
+        margin-bottom: 24px;
         max-width: 979px;
         color: #212529;
         text-align: center;
@@ -51,6 +57,7 @@
     }
 
     &__name {
+        margin-top: 0;
         color: #212529;
         font-size: 24px;
         font-weight: 600;
@@ -78,6 +85,7 @@
     &__descr {
         position: relative;
         max-width: 347px;
+        margin-top: 0;
         color: #212529;
         font-size: 16px;
         font-weight: 400;
@@ -92,6 +100,7 @@
         justify-content: center;
         position: absolute;
         left: -41px;
+        gap: 31px;
         width: 18px;
         height: 18px;
         border: 2px solid #212529;
@@ -130,6 +139,7 @@
     }
 
     &__second {
+        margin-top: 0;
         color: #FFF;
         font-size: 24px;
         font-weight: 600;
@@ -155,6 +165,7 @@
     }
 
     &__info {
+        margin-top: 0;
         max-width: 347px;
         position: relative;
         margin-left: 31px;
