@@ -33,7 +33,9 @@
             width: 100%;
             text-align: center;
             padding-right: 0;
+            padding-left: 0;
         }
+
     }
 
     &__work-title {
@@ -51,11 +53,9 @@
             letter-spacing: -1.08px;
         }
 
-        @media (max-width:320px) {
-            max-width: 228px;
-            font-size: 36px;
-        }
-
+       @media (max-width: 320px) {
+        font-size: 36px;
+    }
         span {
             position: relative;
 
@@ -91,13 +91,13 @@
 
         @media (max-width: 1152px) {
             max-width: 527px;
-            padding-right: 33px;
         }
 
         @media (max-width:768px) {
             max-width: 728px;
-            margin-left: auto;
         }
+
+
     }
 
     &__work-button {
@@ -121,7 +121,6 @@
          @media (max-width: 768px) {
             margin: 50px   auto;
         }
-
 
         &:hover {
             background-color: transparent;

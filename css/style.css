@@ -1563,6 +1563,7 @@ body * {
     width: 100%;
     text-align: center;
     padding-right: 0;
+    padding-left: 0;
   }
 }
 .together__work-title {
@@ -1583,7 +1584,6 @@ body * {
 }
 @media (max-width: 320px) {
   .together__work-title {
-    max-width: 228px;
     font-size: 36px;
   }
 }
@@ -1623,13 +1623,11 @@ body * {
 @media (max-width: 1152px) {
   .together__work-text {
     max-width: 527px;
-    padding-right: 33px;
   }
 }
 @media (max-width: 768px) {
   .together__work-text {
     max-width: 728px;
-    margin-left: auto;
   }
 }
 .together__work-button {
