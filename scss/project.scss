@@ -26,7 +26,7 @@
         }
 
         @media (max-width: 1152px) {
-            padding-right: 94px;
+            padding-right: 40px;
             max-width: 528px;  
         }
 
@@ -120,7 +120,7 @@
             height: 448px;
         }
 
-        @media (max-width: 1150px) {
+        @media (max-width: 1152px) {
             max-width: 560px;
             height: 384px;
         }
@@ -169,7 +169,7 @@
         position: absolute;
         top: 150px;
         left: -140px;
-        pointer-events: none;
+     
 
         @media (max-width:768px) {
             top: -55px;
