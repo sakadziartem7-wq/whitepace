@@ -1030,16 +1030,15 @@ body * {
   background: #043873;
   padding-top: 140px;
 }
-.work__container {
+.work__content {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  text-align: center;
   align-items: center;
+  flex-direction: column;
 }
 @media (max-width: 1152px) {
-  .work__container {
-    max-width: 658px;
+  .work__content {
+    max-width: 650px;
   }
 }
 .work__br {
@@ -1057,6 +1056,11 @@ body * {
   letter-spacing: -1.44px;
   margin-bottom: 24px;
 }
+@media (max-width: 1152px) {
+  .work__title {
+    text-align: left;
+  }
+}
 .work__title span {
   position: relative;
 }
@@ -1072,7 +1076,14 @@ body * {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  text-align: center;
   letter-spacing: -0.36px;
+}
+@media (max-width: 1152px) {
+  .work__text {
+    max-width: 650px;
+    text-align: center;
+  }
 }
 .work__button {
   display: flex;
@@ -1091,6 +1102,11 @@ body * {
   cursor: pointer;
   transition: all 0.3s;
   border: 1px solid #4F9CF9;
+}
+@media (max-width: 1152px) {
+  .work__button {
+    margin-bottom: 140px;
+  }
 }
 .work__button:hover {
   background: transparent;
