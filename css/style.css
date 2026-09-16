@@ -519,8 +519,6 @@ body * {
   }
 }
 .extension__content {
-  position: relative;
-  z-index: 2;
   width: 100%;
   max-width: 795px;
   padding-right: 98px;
@@ -568,12 +566,14 @@ body * {
 }
 .extension__title span {
   position: relative;
+  z-index: 1;
 }
 .extension__title span svg {
   position: absolute;
   left: 0;
   bottom: -8px;
   max-width: 500px;
+  z-index: -1;
 }
 @media (max-width: 768px) {
   .extension__title span svg {
@@ -1031,7 +1031,7 @@ body * {
   padding-top: 140px;
 }
 .work__content {
-  width: 100%;
+  max-width: 1064px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1039,12 +1039,28 @@ body * {
 @media (max-width: 1152px) {
   .work__content {
     max-width: 650px;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 768px) {
+  .work__content {
+    max-width: 604px;
   }
 }
 .work__br {
   position: absolute;
-  left: 0;
-  top: -10px;
+  left: -65px;
+  top: -185px;
+}
+@media (max-width: 1440px) {
+  .work__br {
+    left: -234px;
+  }
+}
+@media (max-width: 1152px) {
+  .work__br {
+    display: none;
+  }
 }
 .work__title {
   margin-top: 0;
@@ -1061,14 +1077,37 @@ body * {
     text-align: left;
   }
 }
+@media (max-width: 768px) {
+  .work__title {
+    font-size: 54px;
+    letter-spacing: -1.08px;
+  }
+}
+@media (max-width: 320px) {
+  .work__title {
+    font-size: 36px;
+  }
+}
 .work__title span {
   position: relative;
+  z-index: 1;
 }
 .work__title span svg {
   position: absolute;
   left: 0;
   bottom: -1px;
   width: 300px;
+  z-index: -1;
+}
+@media (max-width: 768px) {
+  .work__title span svg {
+    width: 200px;
+  }
+}
+@media (max-width: 320px) {
+  .work__title span svg {
+    left: -193px;
+  }
 }
 .work__text {
   margin-top: 0;
@@ -1082,13 +1121,18 @@ body * {
 @media (max-width: 1152px) {
   .work__text {
     max-width: 650px;
-    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .work__text {
+    text-align: left;
   }
 }
 .work__button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 140px;
   gap: 10px;
   width: 195px;
   height: 63px;
@@ -1102,11 +1146,6 @@ body * {
   cursor: pointer;
   transition: all 0.3s;
   border: 1px solid #4F9CF9;
-}
-@media (max-width: 1152px) {
-  .work__button {
-    margin-bottom: 140px;
-  }
 }
 .work__button:hover {
   background: transparent;

@@ -23,8 +23,6 @@
     }
 
     &__content {
-        position: relative;
-        z-index: 2;
         width: 100%;
         max-width: 795px;
         padding-right: 98px; 
@@ -69,12 +67,14 @@
 
         span {
             position: relative;
+            z-index: 1;
 
             svg {
                 position: absolute;
                 left: 0;
                 bottom: -8px;
                 max-width: 500px;
+                z-index: -1;
 
                 @media (max-width:768px) {
                     width: 370px;

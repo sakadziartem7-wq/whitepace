@@ -5,19 +5,34 @@
     padding-top: 140px;
 
     &__content {
-        width: 100%;
+        max-width: 1064px;
         display: flex;
         align-items: center;
         flex-direction: column;
+
         @media (max-width:1152px) {
             max-width: 650px;
+            align-items: flex-start;
+        }
+
+        @media (max-width:768px) {
+            max-width: 604px;
         }
     }
 
     &__br {
         position: absolute;
-        left: 0;
-        top: -10px;
+        left: -65px;
+        top: -185px;
+
+        @media (max-width:1440px) {
+            left: -234px;
+        }
+
+        @media (max-width:1152px) {
+            display: none;
+        }
+
     }
 
     &__title {
@@ -34,14 +49,33 @@
             text-align: left;
         }
 
+        @media (max-width:768px) {
+            font-size: 54px;
+            letter-spacing: -1.08px;
+        }
+
+        @media (max-width:320px) {
+            font-size: 36px;
+        }
+
         span {
             position: relative;
+            z-index: 1;
 
             svg {
                 position: absolute;
                 left: 0;
                 bottom: -1px;
                 width: 300px;
+                z-index: -1;
+
+                @media (max-width:768px) {
+                    width: 200px;
+                }
+
+                @media (max-width:320px) {
+                    left: -193px;
+                }
             }
         }
     }
@@ -57,15 +91,19 @@
 
         @media (max-width:1152px) {
             max-width: 650px;
-            text-align: center;
         }
 
+        @media (max-width:768px) {
+            text-align: left;
+
+        }
     }
 
     &__button {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 140px;
         gap: 10px;
         width: 195px;
         height: 63px;
@@ -80,9 +118,6 @@
         transition: all 0.3s;
         border: 1px solid #4F9CF9;
 
-        @media (max-width:1152px) {
-            margin-bottom: 140px;
-        }
 
         &:hover {
             background: transparent;
