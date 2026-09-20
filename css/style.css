@@ -1179,6 +1179,7 @@ body * {
 }
 .data__title {
   margin-top: 0;
+  max-width: 800px;
   color: #212529;
   font-size: 72px;
   font-weight: 700;
