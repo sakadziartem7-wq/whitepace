@@ -1,18 +1,22 @@
  .data {
      overflow: hidden;
-     padding-top: 168px;
+     padding: 140px 0;
 
-     &__container {
+     &__flex {
          display: flex;
-         justify-content: space-between;    
+       align-items: center;  
      }
 
      &__content {
-         min-width: 780px; 
-           
+         max-width: 800px; 
+
+        @media (max-width:1440px) {
+            max-width: 655px;
+        }
      }
 
      &__title {
+        margin-top: 0;
          color: #212529;
          font-size: 72px;
          font-weight: 700;
@@ -21,9 +25,11 @@
 
          span {
              position: relative;
+             z-index: 1;
 
              svg {
                  position: absolute;
+                 z-index: -1;
                  left: 0;
                  bottom: -18px;
              }
@@ -32,13 +38,18 @@
      }
 
      &__text {
-        width: 800px;
+        max-width:783px;
          color: #212529;
          font-size: 18px;
          font-weight: 400;
          line-height: 30px;
          letter-spacing: -0.36px;
-         margin-top: 24px;
+        margin-top: 0;
+
+        
+        @media (max-width:1440px) {
+            max-width: 656px;
+        }
 
      }
 
