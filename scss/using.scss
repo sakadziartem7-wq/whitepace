@@ -2,7 +2,7 @@
    overflow: hidden;
    background: #043873;
    background-image: url(../images/apps/Element.svg);
-   padding-top: 140px;
+   padding: 140px 0;
 
    &__flex {
       display: flex;
@@ -46,7 +46,6 @@
       border-radius: 8px;
       background: #4F9CF9;
       margin-top: 60px;
-    
       color: #FFF;
       font-size: 18px;
       font-weight: 500;

@@ -1330,7 +1330,7 @@ body * {
   overflow: hidden;
   background: #043873;
   background-image: url(../images/apps/Element.svg);
-  padding-top: 140px;
+  padding: 140px 0;
 }
 .using__flex {
   display: flex;
