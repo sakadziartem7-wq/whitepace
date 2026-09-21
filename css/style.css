@@ -1285,11 +1285,18 @@ body * {
 
 .sponsors {
   overflow: hidden;
-  padding-top: 140px;
+  padding: 140px 0;
 }
-.sponsors__conteht {
+.sponsors__content {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 216px;
+}
+@media (max-width: 768px) {
+  .sponsors__content {
+    flex-direction: column;
+    gap: 100px;
+  }
 }
 .sponsors__title {
   color: #212529;
@@ -1298,13 +1305,25 @@ body * {
   font-weight: 700;
   letter-spacing: -1.44px;
 }
+@media (max-width: 320px) {
+  .sponsors__title {
+    font-size: 36px;
+  }
+}
 .sponsors__title span {
   position: relative;
+  z-index: 1;
 }
-.sponsors__title span svg {
+.sponsors__br {
   position: absolute;
+  z-index: -1;
   left: 0;
   bottom: -17px;
+}
+@media (max-width: 320px) {
+  .sponsors__br {
+    max-width: 150px;
+  }
 }
 
 .using {
