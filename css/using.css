@@ -4,37 +4,43 @@
   background-image: url(../images/apps/Element.svg);
   padding-top: 140px;
 }
-.using__container {
+.using__flex {
   display: flex;
   gap: 100px;
 }
-.using__infa {
+.using__content {
   max-width: 798px;
 }
 .using__title {
+  margin-top: 0;
   color: #FFF;
   font-size: 72px;
   font-weight: 700;
   letter-spacing: -1.44px;
 }
 .using__text {
+  margin-top: 0;
   color: #FFF;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.36px;
-  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .using__img {
   max-width: 582px;
   margin-bottom: 140px;
 }
 .using__button {
-  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 161px;
+  height: 63px;
   border-radius: 8px;
   background: #4F9CF9;
   margin-top: 60px;
-  margin-bottom: 141px;
   color: #FFF;
   font-size: 18px;
   font-weight: 500;
@@ -49,9 +55,6 @@
 }
 .using__button:hover path {
   stroke: #4F9CF9;
-}
-.using__button svg {
-  margin-left: 10px;
 }
 
 /*# sourceMappingURL=using.css.map */

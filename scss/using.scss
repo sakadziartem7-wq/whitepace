@@ -4,16 +4,17 @@
    background-image: url(../images/apps/Element.svg);
    padding-top: 140px;
 
-   &__container {
+   &__flex {
       display: flex;
       gap: 100px;
    }
 
-   &__infa {
+   &__content {
       max-width: 798px;
    }
 
    &__title {
+      margin-top: 0;
       color: #FFF;
       font-size: 72px;
       font-weight: 700;
@@ -21,12 +22,13 @@
    }
 
    &__text {
+      margin-top: 0;
       color: #FFF;
       font-size: 18px;
       font-weight: 400;
       line-height: 30px;
       letter-spacing: -0.36px;
-      margin-top: 24px;
+      margin-bottom: 24px;
    }
 
    &__img {
@@ -35,11 +37,16 @@
    }
 
    &__button {
-      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 161px;
+      height: 63px;
       border-radius: 8px;
       background: #4F9CF9;
       margin-top: 60px;
-      margin-bottom: 141px;
+    
       color: #FFF;
       font-size: 18px;
       font-weight: 500;
@@ -55,10 +62,6 @@
          path {
             stroke: #4F9CF9;
          }
-      }
-
-      svg {
-         margin-left: 10px;
       }
 
    }
