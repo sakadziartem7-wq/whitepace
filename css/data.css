@@ -9,6 +9,7 @@
 @media (max-width: 768px) {
   .data__flex {
     flex-direction: column-reverse;
+    gap: 100px;
   }
 }
 .data__content {
