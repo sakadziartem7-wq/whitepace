@@ -1031,7 +1031,6 @@ body * {
   padding: 140px 0;
 }
 .work__content {
-  max-width: 1064px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1110,6 +1109,7 @@ body * {
   }
 }
 .work__text {
+  max-width: 1060px;
   margin-top: 0;
   color: #FFF;
   font-size: 18px;
@@ -1132,7 +1132,6 @@ body * {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 140px;
   gap: 10px;
   width: 195px;
   height: 63px;
@@ -1336,6 +1335,7 @@ body * {
   overflow: hidden;
   background: #043873;
   background-image: url(../images/apps/Element.svg);
+  background-repeat: no-repeat;
   padding: 140px 0;
 }
 .using__flex {
@@ -1437,6 +1437,12 @@ body * {
   transition: all 0.3s;
   cursor: pointer;
   border: 1px solid #4F9CF9;
+}
+@media (max-width: 768px) {
+  .using__button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .using__button:hover {
   background: transparent;

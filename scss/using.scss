@@ -2,6 +2,7 @@
    overflow: hidden;
    background: #043873;
    background-image: url(../images/apps/Element.svg);
+   background-repeat: no-repeat;
    padding: 140px 0;
 
    &__flex {
@@ -53,7 +54,7 @@
          margin-right: auto;
       }
 
-        @media (max-width:320px) {
+      @media (max-width:320px) {
          font-size: 36px;
       }
 
@@ -73,7 +74,7 @@
       width: 50%;
       margin-bottom: 140px;
 
-       @media (max-width:768px) {
+      @media (max-width:768px) {
          max-width: 485px;
          width: 100%;
       }
@@ -101,6 +102,11 @@
       transition: all 0.3s;
       cursor: pointer;
       border: 1px solid #4F9CF9;
+
+      @media (max-width: 768px) {
+         margin-left: auto;
+         margin-right: auto;
+      }
 
       &:hover {
          background: transparent;

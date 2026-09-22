@@ -2,6 +2,7 @@
   overflow: hidden;
   background: #043873;
   background-image: url(../images/apps/Element.svg);
+  background-repeat: no-repeat;
   padding: 140px 0;
 }
 .using__flex {
@@ -103,6 +104,12 @@
   transition: all 0.3s;
   cursor: pointer;
   border: 1px solid #4F9CF9;
+}
+@media (max-width: 768px) {
+  .using__button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .using__button:hover {
   background: transparent;
