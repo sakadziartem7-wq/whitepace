@@ -6,19 +6,38 @@
 }
 .using__flex {
   display: flex;
-  gap: 100px;
+  align-items: center;
+  box-sizing: border-box;
 }
 .using__content {
-  max-width: 798px;
+  max-width: 898px;
+  padding-left: 100px;
+}
+@media (max-width: 1440px) {
+  .using__content {
+    max-width: 754px;
+  }
 }
 .using__title {
+  max-width: 756px;
   margin-top: 0;
   color: #FFF;
   font-size: 72px;
   font-weight: 700;
   letter-spacing: -1.44px;
 }
+@media (max-width: 1440px) {
+  .using__title {
+    max-width: 640px;
+  }
+}
+@media (max-width: 1152px) {
+  .using__title {
+    font-size: 64px;
+  }
+}
 .using__text {
+  max-width: 793px;
   margin-top: 0;
   color: #FFF;
   font-size: 18px;
@@ -28,8 +47,13 @@
   margin-bottom: 24px;
 }
 .using__img {
-  max-width: 582px;
+  width: 582px;
   margin-bottom: 140px;
+}
+@media (max-width: 1152px) {
+  .using__img {
+    width: 528px;
+  }
 }
 .using__button {
   display: flex;
