@@ -1354,6 +1354,8 @@ body * {
 @media (max-width: 768px) {
   .using__content {
     padding-left: 0;
+    max-width: 728px;
+    text-align: center;
   }
 }
 .using__title {
@@ -1375,6 +1377,18 @@ body * {
     max-width: 460px;
   }
 }
+@media (max-width: 768px) {
+  .using__title {
+    font-size: 54px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 320px) {
+  .using__title {
+    font-size: 36px;
+  }
+}
 .using__text {
   margin-top: 0;
   color: #FFF;
@@ -1387,6 +1401,11 @@ body * {
 .using__img {
   width: 50%;
   margin-bottom: 140px;
+}
+@media (max-width: 320px) {
+  .using__img {
+    width: 100%;
+  }
 }
 .using__button {
   display: flex;
