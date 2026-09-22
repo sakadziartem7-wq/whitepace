@@ -87,12 +87,18 @@
   }
 }
 .data__img {
-  width: 100%;
+  width: 50%;
   max-width: 681px;
 }
 @media (max-width: 1152px) {
   .data__img {
     max-width: 562px;
+  }
+}
+@media (max-width: 768px) {
+  .data__img {
+    width: 100%;
+    max-width: 513px;
   }
 }
 .data__button {
