@@ -2,7 +2,7 @@
      overflow: hidden;
      padding: 140px 0;
 
-     &__flex {
+    &__flex {
          display: flex;
          align-items: center;
 
@@ -11,7 +11,7 @@
          }
      }
 
-     &__content {
+    &__content {
          max-width: 800px;
          padding-right: 17px;
          box-sizing: border-box;
@@ -32,7 +32,7 @@
 
      }
 
-     &__title {
+    &__title {
          margin-top: 0;
          max-width: 800px;
          color: #212529;
@@ -71,10 +71,9 @@
              }
 
          }
-
      }
 
-     &__text {
+    &__text {
          color: #212529;
          font-size: 18px;
          font-weight: 400;
@@ -88,7 +87,7 @@
 
      }
 
-     &__img {
+    &__img {
          width: 100%;
          max-width: 681px;
 
@@ -97,7 +96,7 @@
          }
      }
 
-     &__button {
+    &__button {
          width: 197px;
          height: 63px;
          display: flex;
@@ -120,7 +119,7 @@
              margin-right: auto;
          }
 
-         &:hover {
+        &:hover {
              background: transparent;
              color: #4F9CF9;
 

@@ -74,6 +74,12 @@
   width: 50%;
   margin-bottom: 140px;
 }
+@media (max-width: 768px) {
+  .using__img {
+    max-width: 485px;
+    width: 100%;
+  }
+}
 @media (max-width: 320px) {
   .using__img {
     width: 100%;

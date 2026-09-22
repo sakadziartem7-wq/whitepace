@@ -1,0 +1,130 @@
+.data {
+  overflow: hidden;
+  padding: 140px 0;
+}
+.data__flex {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .data__flex {
+    flex-direction: column-reverse;
+  }
+}
+.data__content {
+  max-width: 800px;
+  padding-right: 17px;
+  box-sizing: border-box;
+}
+@media (max-width: 1440px) {
+  .data__content {
+    max-width: 655px;
+  }
+}
+@media (max-width: 1152px) {
+  .data__content {
+    max-width: 526px;
+  }
+}
+@media (max-width: 768px) {
+  .data__content {
+    max-width: 728px;
+    padding-right: 0;
+    text-align: center;
+  }
+}
+.data__title {
+  margin-top: 0;
+  max-width: 800px;
+  color: #212529;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+@media (max-width: 1152px) {
+  .data__title {
+    font-size: 64px;
+    letter-spacing: -1.28px;
+  }
+}
+@media (max-width: 768px) {
+  .data__title {
+    font-size: 54px;
+  }
+}
+@media (max-width: 320px) {
+  .data__title {
+    font-size: 36px;
+  }
+}
+.data__title span {
+  position: relative;
+  z-index: 1;
+}
+.data__title span svg {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: -18px;
+}
+@media (max-width: 320px) {
+  .data__title span svg {
+    max-width: 150px;
+  }
+}
+.data__text {
+  color: #212529;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  margin-top: 0;
+}
+@media (max-width: 768px) {
+  .data__text {
+    max-width: 708px;
+  }
+}
+.data__img {
+  width: 100%;
+  max-width: 681px;
+}
+@media (max-width: 1152px) {
+  .data__img {
+    max-width: 562px;
+  }
+}
+.data__button {
+  width: 197px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4F9CF9;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid #4F9CF9;
+  margin-top: 60px;
+}
+@media (max-width: 768px) {
+  .data__button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.data__button:hover {
+  background: transparent;
+  color: #4F9CF9;
+}
+.data__button:hover path {
+  stroke: #4F9CF9;
+}
+
+/*# sourceMappingURL=data.css.map */
