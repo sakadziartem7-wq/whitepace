@@ -90,12 +90,11 @@
 
      &__img {
          width: 100%;
-         width: 681px;
+         max-width: 681px;
 
          @media (max-width:1152px) {
              max-width: 562px;
          }
-
      }
 
      &__button {
