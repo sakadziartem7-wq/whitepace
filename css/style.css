@@ -1644,7 +1644,7 @@ body * {
 .footer {
   overflow: hidden;
   background: #043873;
-  padding-top: 140px;
+  padding: 140px 0;
 }
 .footer__logo {
   width: 191px;
@@ -1659,13 +1659,12 @@ body * {
   width: 240px;
   color: #F7F7EE;
   margin-top: 15px;
-  width: 240px;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.36px;
 }
-.footer__container {
+.footer__flex {
   display: flex;
   flex-direction: column;
 }
@@ -1700,7 +1699,6 @@ body * {
 }
 .footer__actiov {
   max-width: 259px;
-  margin-left: auto;
 }
 .footer__titles {
   margin: 0;

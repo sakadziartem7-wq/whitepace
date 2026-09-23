@@ -1,7 +1,7 @@
 .footer {
     overflow: hidden;
     background: #043873;
-    padding-top: 140px;
+    padding: 140px 0;
 
     &__logo {
         width: 191px;
@@ -18,14 +18,13 @@
         width: 240px;
         color: #F7F7EE;
         margin-top: 15px;
-        width: 240px;
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
         letter-spacing: -0.36px;
     }
 
-    &__container {
+    &__flex {
         display: flex;
         flex-direction: column;
     }
@@ -66,7 +65,6 @@
 
     &__actiov {
         max-width: 259px;
-        margin-left: auto;
     }
 
     &__titles {
