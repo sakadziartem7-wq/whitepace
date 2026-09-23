@@ -1552,7 +1552,7 @@ body * {
 .today {
   overflow: hidden;
   background: #043873;
-  padding-top: 140px;
+  padding: 140px 0;
 }
 .today__title {
   color: #FFF;
