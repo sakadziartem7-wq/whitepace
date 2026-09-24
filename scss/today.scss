@@ -1,6 +1,8 @@
+@use "variables" as *;
+
 .today {
     overflow: hidden;
-    background: #043873;
+    background: $main_color;
     padding: 140px 0;
 
     &__flex {
@@ -58,8 +60,8 @@
         justify-content: center;
         gap: 10px;
         border-radius: 10px;
-        background: #4F9CF9;
-        border: 1px solid #4F9CF9;
+        background: $button_color;
+        border: 1px solid $button_color;
         cursor: pointer;
         transition: all 0.3s;
         color: #FFF;
@@ -71,7 +73,7 @@
             background: transparent;
 
             path {
-                stroke: #4F9CF9;
+                stroke: $button_color;
             }
         }
     }

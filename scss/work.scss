@@ -1,7 +1,9 @@
+@use "variables" as *;
+
 .work {
     position: relative;
     overflow: hidden;
-    background: #043873;
+    background: $main_color;
     padding: 140px 0;
 
     &__content {
@@ -107,7 +109,7 @@
         width: 195px;
         height: 63px;
         border-radius: 8px;
-        background: #4F9CF9;
+        background: $button_color;
         color: #FFF;
         font-size: 18px;
         font-weight: 500;
@@ -115,14 +117,14 @@
         letter-spacing: -0.36px;
         cursor: pointer;
         transition: all 0.3s;
-        border: 1px solid #4F9CF9;
+        border: 1px solid $button_color;
 
 
         &:hover {
             background: transparent;
 
             path {
-                stroke: #4F9CF9;
+                stroke: $button_color;
             }
         }
     }

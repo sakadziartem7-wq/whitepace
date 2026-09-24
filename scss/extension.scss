@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .extension {
     background-image: url("../images/extension/Customise it to your needs.png");
     min-height: 759px;
@@ -110,21 +112,21 @@
     &__button {
         padding: 20px 40px;
         border-radius: 6px;
-        background: #4F9CF9;
+        background: $button_color;
         color: #FFF;
         font-size: 18px;
         font-weight: 500;
         line-height: 23px;
         letter-spacing: -0.36px;
         transition: all 0.3s;
-        border: 1px solid #4F9CF9;
+        border: 1px solid $button_color;
         cursor: pointer;
 
         &:hover {
             background-color: transparent;
 
             path {
-                stroke: #4F9CF9;
+                stroke: $button_color;
             }
         }
 

@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .project {
     overflow: hidden;
     padding-top: 140px;
@@ -143,22 +145,22 @@
         margin-top: 60px;
         padding: 20px 40px;
         border-radius: 6px;
-        background: #4F9CF9;
+        background: $button_color;
         color: #ffffff;
         font-size: 18px;
         font-weight: 500;
         line-height: 23px;
         letter-spacing: -0.36px;
         transition: all 0.3s;
-        border: 1px solid #4F9CF9;
+        border: 1px solid $button_color;
         cursor: pointer;
 
         &:hover {
             background: transparent;
-            color: #4F9CF9;
+            color: $button_color;
 
             path {
-                stroke: #4F9CF9;
+                stroke: $button_color;
             }
         }
 

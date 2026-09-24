@@ -1,6 +1,8 @@
+@use "variables" as *;
+
 .hero {
     overflow: hidden;
-    background: #043873;
+    background: $main_color;
     background-image: url(../images/hero/Element.svg);
     background-size: cover;
     padding:140px 0;
@@ -107,7 +109,7 @@
         margin-bottom: 0;
         padding: 20px;
         border-radius: 8px;
-        background: #4F9CF9;
+        background: $button_color;
         color: #FFF;
         font-size: 18px;
         font-weight: 500;
@@ -119,11 +121,11 @@
 
         &:hover {
             background-color: transparent;
-            color: #4F9CF9;
+            color: $button_color;
 
             svg {
                 path {
-                    stroke: #4F9CF9;
+                    stroke: $button_color;
                 }
             }
         }

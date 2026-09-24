@@ -1,6 +1,8 @@
+@use "variables" as *;
+
 .using {
    overflow: hidden;
-   background: #043873;
+   background: $main_color;
    background-image: url(../images/apps/Element.svg);
    background-repeat: no-repeat;
    padding: 140px 0;
@@ -92,7 +94,7 @@
       width: 161px;
       height: 63px;
       border-radius: 8px;
-      background: #4F9CF9;
+      background: $button_color;
       margin-top: 60px;
       color: #FFF;
       font-size: 18px;
@@ -101,7 +103,7 @@
       letter-spacing: -0.36px;
       transition: all 0.3s;
       cursor: pointer;
-      border: 1px solid #4F9CF9;
+      border: 1px solid $button_color;
 
       @media (max-width: 768px) {
          margin-left: auto;
@@ -112,7 +114,7 @@
          background: transparent;
 
          path {
-            stroke: #4F9CF9;
+            stroke: $button_color;
          }
       }
 

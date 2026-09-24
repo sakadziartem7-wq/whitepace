@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .says {
     overflow: hidden;
     padding-top: 140px;
@@ -82,7 +84,7 @@
     &__listeri {
         max-width: 471px;
         width: calc((100% - 64px) /3);
-        background: #4F9CF9;
+        background: $button_color;
         border-radius: 10px;
         padding: 60px 40px;
     }

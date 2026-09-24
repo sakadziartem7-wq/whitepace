@@ -1649,9 +1649,6 @@ body * {
 .footer__logo {
   width: 191px;
 }
-.footer__info {
-  padding-right: 100px;
-}
 .footer__top {
   display: flex;
   gap: 100px;

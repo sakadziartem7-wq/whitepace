@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .needs {
     padding: 140px 0;
 
@@ -144,9 +146,9 @@
         font-size: 18px;
         line-height: 23px;
         letter-spacing: -2%;
-        border: 1px solid #4F9CF9;
+        border: 1px solid $button_color;
         border-radius: 8px;
-        background-color: #4F9CF9;
+        background-color: $button_color;
         color: #fff;
         cursor: pointer;
         transition: all .3s;
@@ -162,11 +164,11 @@
         }
 
         &:hover {
-            color: #4F9CF9;
+            color: $button_color;
             background-color: transparent;
 
             path {
-                stroke: #4F9CF9;
+                stroke: $button_color;
             }
         }
 

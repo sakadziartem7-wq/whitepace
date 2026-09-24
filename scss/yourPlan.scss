@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .YourPlan {
     overflow: hidden;
     padding-top: 140px;
@@ -133,7 +135,7 @@
         width: calc((100% - 64px) / 3);
         border-radius: 10px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-        background: #043873;
+        background: $main_color;
         list-style: none;
         padding: 80px 44px;
     }
@@ -192,12 +194,12 @@
         padding: 16px 40px;
         align-items: center;
         border-radius: 8px;
-        background: #4F9CF9;
+        background: $button_color;
         color: #FFF;
         font-size: 16px;
         font-weight: 500;
         letter-spacing: -0.32px;
-        border: 1px solid #4F9CF9;
+        border: 1px solid $button_color;
         cursor: pointer;
         transition: all 0.3s;
         margin-top: 41px;

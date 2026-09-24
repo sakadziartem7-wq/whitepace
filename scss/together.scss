@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 .together {
     overflow: hidden;
     padding-top: 100px;
@@ -109,14 +111,14 @@
         gap: 10px;
         height: 63px;
         border-radius: 8px;
-        background: #4F9CF9;
+        background: $button_color;
         color: #FFF;
         font-size: 18px;
         font-weight: 500;
         line-height: 23px;
         letter-spacing: -0.36px;
         transition: all 0.3s;
-        border: 1px solid #4F9CF9;
+        border: 1px solid $button_color;
         cursor: pointer;
 
          @media (max-width: 768px) {
@@ -125,10 +127,10 @@
 
         &:hover {
             background-color: transparent;
-            color: #4F9CF9;
+            color: $button_color;
 
             path {
-                stroke: #4F9CF9;
+                stroke: $button_color;
             }
         }
 
