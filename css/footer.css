@@ -95,6 +95,7 @@
 }
 @media (max-width: 768px) {
   .footer__action {
+    display: flex;
     flex-direction: column;
     margin: 0;
   }
@@ -147,6 +148,7 @@
 }
 .footer__button:hover {
   background: transparent;
+  color: #4F9CF9;
 }
 .footer__button:hover path {
   stroke: #4F9CF9;
@@ -163,6 +165,13 @@
     flex-wrap: wrap;
   }
 }
+@media (max-width: 320px) {
+  .copy {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
 .copy__list {
   display: flex;
   gap: 60px;
@@ -170,6 +179,13 @@
 @media (max-width: 768px) {
   .copy__list {
     gap: 50px;
+  }
+}
+@media (max-width: 320px) {
+  .copy__list {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
 }
 .copy__link {
@@ -182,7 +198,7 @@
 }
 .copy__rem {
   display: flex;
-  gap: 32px;
+  gap: 40px;
   align-items: center;
 }
 .copy__select {

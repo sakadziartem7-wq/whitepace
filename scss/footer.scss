@@ -23,10 +23,9 @@
             flex-direction: column;
         }
 
-           @media (max-width: 320px) {
+        @media (max-width: 320px) {
             text-align: center;
         }
-
     }
 
     &__text {
@@ -55,7 +54,7 @@
         }
 
         @media (max-width: 320px) {
-           text-align: center;
+            text-align: center;
         }
     }
 
@@ -72,9 +71,9 @@
         font-weight: 700;
         letter-spacing: -0.36px;
 
-           @media (max-width: 320px) {
-           margin-left: auto;
-           margin-right: auto;
+        @media (max-width: 320px) {
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 
@@ -97,11 +96,12 @@
         margin-left: auto;
 
         @media (max-width: 768px) {
+            display: flex;
             flex-direction: column;
             margin: 0;
         }
 
-           @media (max-width: 320px) {
+        @media (max-width: 320px) {
             margin-left: auto;
             margin-right: auto;
         }
@@ -150,12 +150,12 @@
 
         &:hover {
             background: transparent;
+            color: $button_color;
 
             path {
                 stroke: $button_color;
             }
         }
-
     }
 }
 
@@ -169,7 +169,11 @@
         flex-wrap: wrap;
     }
 
-      
+          @media (max-width: 320px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 
     &__list {
         display: flex;
@@ -178,6 +182,12 @@
         @media (max-width: 768px) {
             gap: 50px;
         }
+
+          @media (max-width: 320px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
     }
 
     &__link {
@@ -191,8 +201,8 @@
 
     &__rem {
         display: flex;
-        gap: 32px;
-        align-items: center;
+        gap: 40px;
+        align-items: center;   
     }
 
     &__select {
