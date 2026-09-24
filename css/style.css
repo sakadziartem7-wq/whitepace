@@ -251,7 +251,6 @@ body * {
   }
 }
 .hero__square {
-  margin: 120px 0;
   width: 824px;
   height: 545px;
   background: #C4DEFD;
@@ -327,8 +326,6 @@ body * {
   }
 }
 .project__content {
-  position: relative;
-  z-index: 2;
   max-width: 732px;
   padding-right: 60px;
 }
@@ -380,6 +377,7 @@ body * {
 .project__title span {
   position: relative;
   display: inline-block;
+  z-index: 1;
 }
 .project__title span svg {
   position: absolute;
@@ -483,7 +481,8 @@ body * {
 .project__bt {
   position: absolute;
   top: 150px;
-  left: -140px;
+  left: -335px;
+  z-index: -1;
 }
 @media (max-width: 768px) {
   .project__bt {
@@ -493,10 +492,9 @@ body * {
 }
 
 .extension {
-  background-image: url("../images/extension/Customise it to your needs.png");
-  min-height: 759px;
   overflow: hidden;
   padding: 140px 0;
+  background: #043873;
 }
 @media (max-width: 768px) {
   .extension {
@@ -629,7 +627,6 @@ body * {
   margin-left: 10px;
 }
 .extension__square {
-  margin: 70px 0;
   width: 100%;
   max-width: 686px;
   height: 479px;
@@ -1126,6 +1123,7 @@ body * {
 @media (max-width: 768px) {
   .work__text {
     text-align: left;
+    margin-bottom: 60px;
   }
 }
 .work__button {
@@ -1304,7 +1302,11 @@ body * {
     gap: 100px;
   }
 }
+.sponsors svg {
+  max-width: 70%;
+}
 .sponsors__title {
+  margin-top: 0;
   color: #212529;
   text-align: center;
   font-size: 72px;
@@ -1314,6 +1316,7 @@ body * {
 @media (max-width: 320px) {
   .sponsors__title {
     font-size: 36px;
+    margin-bottom: 100px;
   }
 }
 .sponsors__title span {
@@ -1465,6 +1468,7 @@ body * {
 }
 .says__title span {
   position: relative;
+  z-index: 1;
 }
 .says__title span svg {
   z-index: -1;
@@ -1651,6 +1655,7 @@ body * {
 }
 .footer__top {
   display: flex;
+  padding-bottom: 100px;
   gap: 100px;
 }
 .footer__text {
@@ -1697,8 +1702,6 @@ body * {
 .footer__action {
   max-width: 259px;
   margin-left: auto;
-  padding-bottom: 140px;
-  box-sizing: border-box;
 }
 .footer__titles {
   margin: 0;
@@ -1846,9 +1849,11 @@ body * {
 }
 .together__work-title span {
   position: relative;
+  z-index: 1;
 }
 .together__work-title span svg {
   position: absolute;
+  z-index: -1;
   left: 0;
   bottom: -8px;
 }

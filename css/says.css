@@ -11,6 +11,7 @@
 }
 .says__title span {
   position: relative;
+  z-index: 1;
 }
 .says__title span svg {
   z-index: -1;

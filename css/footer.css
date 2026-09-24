@@ -8,6 +8,7 @@
 }
 .footer__top {
   display: flex;
+  padding-bottom: 100px;
   gap: 100px;
 }
 .footer__text {
@@ -54,8 +55,6 @@
 .footer__action {
   max-width: 259px;
   margin-left: auto;
-  padding-bottom: 140px;
-  box-sizing: border-box;
 }
 .footer__titles {
   margin: 0;

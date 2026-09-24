@@ -13,7 +13,11 @@
     gap: 100px;
   }
 }
+.sponsors svg {
+  max-width: 70%;
+}
 .sponsors__title {
+  margin-top: 0;
   color: #212529;
   text-align: center;
   font-size: 72px;
@@ -23,6 +27,7 @@
 @media (max-width: 320px) {
   .sponsors__title {
     font-size: 36px;
+    margin-bottom: 100px;
   }
 }
 .sponsors__title span {

@@ -1,10 +1,9 @@
 @use "variables" as *;
 
 .extension {
-    background-image: url("../images/extension/Customise it to your needs.png");
-    min-height: 759px;
     overflow: hidden;
     padding: 140px 0;
+    background: $main_color;
 
     @media (max-width:768px) {
         padding: 50px 0;
@@ -136,7 +135,6 @@
     }
 
     &__square {
-        margin: 70px 0;
         width: 100%;
         max-width: 686px;
         height: 479px;

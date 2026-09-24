@@ -1,8 +1,7 @@
 .extension {
-  background-image: url("../images/extension/Customise it to your needs.png");
-  min-height: 759px;
   overflow: hidden;
   padding: 140px 0;
+  background: #043873;
 }
 @media (max-width: 768px) {
   .extension {
@@ -135,7 +134,6 @@
   margin-left: 10px;
 }
 .extension__square {
-  margin: 70px 0;
   width: 100%;
   max-width: 686px;
   height: 479px;

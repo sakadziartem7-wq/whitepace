@@ -100,6 +100,7 @@
 @media (max-width: 768px) {
   .work__text {
     text-align: left;
+    margin-bottom: 60px;
   }
 }
 .work__button {

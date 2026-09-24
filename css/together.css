@@ -62,9 +62,11 @@
 }
 .together__work-title span {
   position: relative;
+  z-index: 1;
 }
 .together__work-title span svg {
   position: absolute;
+  z-index: -1;
   left: 0;
   bottom: -8px;
 }

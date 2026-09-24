@@ -18,8 +18,6 @@
   }
 }
 .project__content {
-  position: relative;
-  z-index: 2;
   max-width: 732px;
   padding-right: 60px;
 }
@@ -71,6 +69,7 @@
 .project__title span {
   position: relative;
   display: inline-block;
+  z-index: 1;
 }
 .project__title span svg {
   position: absolute;
@@ -174,7 +173,8 @@
 .project__bt {
   position: absolute;
   top: 150px;
-  left: -140px;
+  left: -335px;
+  z-index: -1;
 }
 @media (max-width: 768px) {
   .project__bt {
