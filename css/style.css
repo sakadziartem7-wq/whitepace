@@ -1811,12 +1811,8 @@ body * {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #2E5B8A;
+  flex-wrap: wrap;
   padding: 32px 0;
-}
-@media (max-width: 768px) {
-  .copy {
-    flex-wrap: wrap;
-  }
 }
 @media (max-width: 320px) {
   .copy {
@@ -1827,11 +1823,13 @@ body * {
 }
 .copy__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 60px;
 }
 @media (max-width: 768px) {
   .copy__list {
     gap: 50px;
+    justify-content: center;
   }
 }
 @media (max-width: 320px) {
@@ -1853,6 +1851,11 @@ body * {
   display: flex;
   gap: 40px;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .copy__rem {
+    padding-top: 20px;
+  }
 }
 .copy__select {
   color: #FFF;

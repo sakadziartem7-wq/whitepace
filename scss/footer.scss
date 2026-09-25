@@ -163,13 +163,10 @@
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #2E5B8A;
+    flex-wrap: wrap;
     padding: 32px 0;
 
-    @media (max-width: 768px) {
-        flex-wrap: wrap;
-    }
-
-          @media (max-width: 320px) {
+    @media (max-width: 320px) {
         flex-direction: column;
         align-items: center;
         gap: 20px;
@@ -177,17 +174,19 @@
 
     &__list {
         display: flex;
+        flex-wrap: wrap;
         gap: 60px;
 
         @media (max-width: 768px) {
             gap: 50px;
+            align-items: center;
         }
 
-          @media (max-width: 320px) {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
+        @media (max-width: 320px) {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
     }
 
     &__link {
@@ -202,7 +201,11 @@
     &__rem {
         display: flex;
         gap: 40px;
-        align-items: center;   
+        align-items: center;
+
+          @media (max-width: 768px) {
+           padding-top: 20px;
+        }
     }
 
     &__select {
