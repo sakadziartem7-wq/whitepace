@@ -919,13 +919,12 @@ body * {
 .plan__descr {
   position: relative;
   max-width: 347px;
-  margin-top: 0;
+  margin-top: 28px;
   color: #212529;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: -0.32px;
-  margin-left: 31px;
 }
 .plan__descr::before {
   content: "✓";
@@ -989,10 +988,9 @@ body * {
   letter-spacing: -0.36px;
 }
 .plan__info {
-  margin-top: 0;
+  margin-top: 28px;
   max-width: 347px;
   position: relative;
-  margin-left: 31px;
   color: #FFF;
   font-size: 18px;
   font-weight: 500;
