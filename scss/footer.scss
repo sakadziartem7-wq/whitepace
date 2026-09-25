@@ -25,6 +25,7 @@
 
         @media (max-width: 320px) {
             text-align: center;
+            align-items: center;
         }
     }
 
@@ -51,10 +52,6 @@
 
         @media (max-width: 768px) {
             flex-direction: column;
-        }
-
-        @media (max-width: 320px) {
-            text-align: center;
         }
     }
 
@@ -102,8 +99,7 @@
         }
 
         @media (max-width: 320px) {
-            margin-left: auto;
-            margin-right: auto;
+          align-items: center;
         }
     }
 

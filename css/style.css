@@ -1678,6 +1678,7 @@ body * {
 @media (max-width: 320px) {
   .footer__top {
     text-align: center;
+    align-items: center;
   }
 }
 .footer__text {
@@ -1705,11 +1706,6 @@ body * {
 @media (max-width: 768px) {
   .footer__menu {
     flex-direction: column;
-  }
-}
-@media (max-width: 320px) {
-  .footer__menu {
-    text-align: center;
   }
 }
 .footer__nav {
@@ -1755,8 +1751,7 @@ body * {
 }
 @media (max-width: 320px) {
   .footer__action {
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
   }
 }
 .footer__titles {
@@ -1829,7 +1824,7 @@ body * {
 @media (max-width: 768px) {
   .copy__list {
     gap: 50px;
-    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 320px) {
