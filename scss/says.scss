@@ -35,16 +35,19 @@
     }
 
     &__list {
-        max-width: 471px;
+        box-sizing: border-box;
         width: calc((100% - 64px) /3);
         background: #fff;
         border-radius: 10px;
         box-shadow: 15px 10px 50px 0 rgba(0, 0, 0, 0.10);
         padding: 60px 40px;
+
+        @media (max-width:1440px) {
+           padding: 60px 24px;
+        }  
     }
 
     &__text {
-        width: 392px;
         color: #212529;
         font-size: 18px;
         font-weight: 400;
@@ -57,8 +60,8 @@
     }
 
     &__comint {
-        max-width: 383px;
         display: flex;
+        gap: 42px;
 
         svg {
             margin-top: 60px;
@@ -66,13 +69,10 @@
     }
 
     &__com {
-        margin-left: 42px;
-        margin-top: 60px;
         color: #212529;
         font-size: 24px;
         font-weight: 600;
         line-height: 36px;
-
     }
 
     &__texter {
@@ -81,19 +81,21 @@
         font-weight: 400;
         line-height: 20px;
         letter-spacing: -0.32px;
-        margin-left: 42px;
     }
 
     &__listeri {
-        max-width: 471px;
+        box-sizing: border-box;
         width: calc((100% - 64px) /3);
         background: $button_color;
         border-radius: 10px;
         padding: 60px 40px;
+
+        @media (max-width:1440px) {
+            padding: 60px 24px;
+        }   
     }
 
     &__description {
-        width: 392px;
         color: #FFF;
         font-size: 18px;
         font-weight: 400;
@@ -106,9 +108,7 @@
     }
 
     &__texteri {
-        max-width: 391px;
         color: #fff;
-        margin-left: 42px;
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
