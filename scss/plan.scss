@@ -102,22 +102,25 @@
         letter-spacing: -0.32px;
 
         &::before {
-    content: '';
-    flex-shrink: 0;
-    width: 18px;
-    height: 18px;
-    background: url('../images/plan/Icon.svg') no-repeat center / contain;
-  }
+            content: '';
+            flex-shrink: 0;
+            width: 18px;
+            height: 18px;
+            background: url('../images/plan/Icon.svg') no-repeat center / contain;
+        }
 
     }
 
     &__button {
         border: 1px solid #FFE492;
         background: #FFF;
-        margin-bottom: 104px;
         margin-top: 24px;
         border-radius: 8px;
-        padding: 16px 40px;
+        display: flex;
+        width: 166px;
+        height: 51px;
+        align-items: center;
+        justify-content: center;
         color: #212529;
         font-size: 16px;
         font-weight: 500;
@@ -169,6 +172,9 @@
     }
 
     &__info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
         margin-top: 28px;
         max-width: 347px;
         position: relative;
@@ -178,22 +184,22 @@
         line-height: 23px;
         letter-spacing: -0.36px;
 
-    }
+        &::before {
+            content: '';
+            flex-shrink: 0;
+            width: 18px;
+            height: 18px;
+            background: url('../images/plan/Icon1.svg') no-repeat center / contain;
+        }
 
-    &__info::before {
-        content: "✓";
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        left: -41px;
-        width: 18px;
-        border: 2px solid #ffe492;
-        border-radius: 50%;
     }
 
     &__btn {
-        padding: 16px 40px;
+        display: flex;
+        width: 166px;
+        height: 51px;
         align-items: center;
+        justify-content: center;
         border-radius: 8px;
         background: $button_color;
         color: #FFF;
