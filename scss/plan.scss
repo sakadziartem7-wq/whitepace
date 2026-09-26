@@ -10,6 +10,11 @@
         flex-direction: column;
     }
 
+    &__features {
+        list-style: none;
+    }
+
+
     &__title {
         margin-top: 0;
         max-width: 1481px;

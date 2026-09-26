@@ -8,6 +8,9 @@
   align-items: center;
   flex-direction: column;
 }
+.plan__features {
+  list-style: none;
+}
 .plan__title {
   margin-top: 0;
   max-width: 1481px;
