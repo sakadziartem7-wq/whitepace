@@ -39,6 +39,7 @@
   z-index: -1;
   left: 0;
   bottom: -17px;
+  max-width: 100%;
 }
 @media (max-width: 320px) {
   .sponsors__br {

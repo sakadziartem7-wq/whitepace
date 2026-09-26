@@ -13,7 +13,7 @@
 }
 .plan__title {
   margin-top: 0;
-  max-width: 1481px;
+  margin-bottom: 24px;
   color: #212529;
   font-size: 72px;
   font-weight: 700;
@@ -22,11 +22,13 @@
 }
 .plan__title span {
   position: relative;
+  z-index: 1;
 }
 .plan__title span svg {
   position: absolute;
   left: 0;
-  bottom: -21px;
+  z-index: -1;
+  bottom: -10px;
 }
 .plan__text {
   margin-top: 0;
@@ -41,7 +43,7 @@
 }
 .plan__grid {
   margin: 0;
-  padding: 123px 0 0;
+  padding: 0;
   display: flex;
   align-items: center;
   gap: 32px;

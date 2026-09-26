@@ -17,7 +17,7 @@
 
     &__title {
         margin-top: 0;
-        max-width: 1481px;
+        margin-bottom: 24px;
         color: #212529;
         font-size: 72px;
         font-weight: 700;
@@ -26,11 +26,13 @@
 
         span {
             position: relative;
+            z-index: 1;
 
             svg {
                 position: absolute;
                 left: 0;
-                bottom: -21px;
+                z-index: -1;
+                bottom: -10px;
             }
         }
     }
@@ -49,7 +51,7 @@
 
     &__grid {
         margin: 0;
-        padding: 123px 0 0;
+        padding: 0;
         display: flex;
         align-items: center;
         gap: 32px;
