@@ -2,9 +2,10 @@
 
 .says {
     overflow: hidden;
-    padding-top: 140px;
+    padding: 140px 0;
 
     &__title {
+        margin-top: 0;
         color: #212529;
         text-align: center;
         font-size: 70px;
@@ -28,7 +29,7 @@
         display: flex;
         gap: 32px;
         padding: 0;
-        margin-bottom: 140px;
+        margin: 0;
         list-style: none;
     }
 

@@ -844,7 +844,7 @@ body * {
 
 .plan {
   overflow: hidden;
-  padding-top: 140px;
+  padding: 140px 0;
 }
 .plan__flex {
   display: flex;
@@ -884,6 +884,7 @@ body * {
   letter-spacing: -0.36px;
 }
 .plan__grid {
+  margin: 0;
   padding: 123px 0 0;
   display: flex;
   align-items: center;
@@ -1467,9 +1468,10 @@ body * {
 
 .says {
   overflow: hidden;
-  padding-top: 140px;
+  padding: 140px 0;
 }
 .says__title {
+  margin-top: 0;
   color: #212529;
   text-align: center;
   font-size: 70px;
@@ -1490,7 +1492,7 @@ body * {
   display: flex;
   gap: 32px;
   padding: 0;
-  margin-bottom: 140px;
+  margin: 0;
   list-style: none;
 }
 .says__list {
