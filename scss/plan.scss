@@ -12,8 +12,8 @@
 
     &__features {
         list-style: none;
+        padding: 0;
     }
-
 
     &__title {
         margin-top: 0;
@@ -90,7 +90,9 @@
     }
 
     &__descr {
-        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 10px;
         max-width: 347px;
         margin-top: 28px;
         color: #212529;
@@ -99,19 +101,14 @@
         line-height: 20px;
         letter-spacing: -0.32px;
 
-    }
+        &::before {
+    content: '';
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    background: url('../images/plan/Icon.svg') no-repeat center / contain;
+  }
 
-    &__descr::before {
-        content: "✓";
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        left: -41px;
-        gap: 31px;
-        width: 18px;
-        height: 18px;
-        border: 2px solid #212529;
-        border-radius: 50%;
     }
 
     &__button {

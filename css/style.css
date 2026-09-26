@@ -854,6 +854,7 @@ body * {
 }
 .plan__features {
   list-style: none;
+  padding: 0;
 }
 .plan__title {
   margin-top: 0;
@@ -920,7 +921,9 @@ body * {
   letter-spacing: -0.36px;
 }
 .plan__descr {
-  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   max-width: 347px;
   margin-top: 28px;
   color: #212529;
@@ -930,16 +933,11 @@ body * {
   letter-spacing: -0.32px;
 }
 .plan__descr::before {
-  content: "✓";
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  left: -41px;
-  gap: 31px;
+  content: "";
+  flex-shrink: 0;
   width: 18px;
   height: 18px;
-  border: 2px solid #212529;
-  border-radius: 50%;
+  background: url("../images/plan/Icon.svg") no-repeat center/contain;
 }
 .plan__button {
   border: 1px solid #FFE492;
