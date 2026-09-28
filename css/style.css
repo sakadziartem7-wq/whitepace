@@ -130,7 +130,7 @@ body * {
 .header__button:hover {
   background: #e2c879;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1440px) {
   .header__button {
     margin-left: auto;
   }
