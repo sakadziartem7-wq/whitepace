@@ -33,6 +33,12 @@
         list-style: none;
     }
 
+    &__quote {
+        &_white {
+            filter: brightness(0) invert(1);
+        }
+    }
+
     &__item {
         box-sizing: border-box;
         width: calc((100% - 64px) /3);
@@ -42,12 +48,12 @@
         padding: 60px 40px;
 
         &__blue {
-             background: $button_color;
+            background: $button_color;
         }
 
         @media (max-width:1440px) {
-           padding: 60px 24px;
-        }  
+            padding: 60px 24px;
+        }
     }
 
     &__text {
@@ -65,10 +71,6 @@
     &__comint {
         display: flex;
         gap: 42px;
-
-        svg {
-            margin-top: 60px;
-        }
     }
 
     &__com {
@@ -104,5 +106,10 @@
         font-weight: 400;
         line-height: 20px;
         letter-spacing: -0.32px;
+    }
+
+    &__avatar {
+        object-fit: cover;
+        margin-top: 67px;
     }
 }
