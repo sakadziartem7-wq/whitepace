@@ -1498,15 +1498,14 @@ body * {
   left: 0;
   bottom: 0;
 }
-.says__grid {
+.says__list {
   display: flex;
-  align-items: center;
   gap: 32px;
   padding: 0;
   margin: 0;
   list-style: none;
 }
-.says__list {
+.says__item {
   box-sizing: border-box;
   width: calc((100% - 64px) / 3);
   background: #fff;
@@ -1514,8 +1513,11 @@ body * {
   box-shadow: 15px 10px 50px 0 rgba(0, 0, 0, 0.1);
   padding: 60px 40px;
 }
+.says__item__blue {
+  background: #4F9CF9;
+}
 @media (max-width: 1440px) {
-  .says__list {
+  .says__item {
     padding: 60px 24px;
   }
 }
@@ -1548,18 +1550,6 @@ body * {
   font-weight: 400;
   line-height: 20px;
   letter-spacing: -0.32px;
-}
-.says__listeri {
-  box-sizing: border-box;
-  width: calc((100% - 64px) / 3);
-  background: #4F9CF9;
-  border-radius: 10px;
-  padding: 60px 40px;
-}
-@media (max-width: 1440px) {
-  .says__listeri {
-    padding: 60px 24px;
-  }
 }
 .says__description {
   color: #FFF;
