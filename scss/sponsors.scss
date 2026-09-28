@@ -4,10 +4,10 @@
     overflow: hidden;
     padding: 140px 0;
 
-    &__content { 
+    &__content {
         display: flex;
         align-items: center;
-        gap: 216px;
+        justify-content: space-between;
 
         @media (max-width: 768px) {
             flex-direction: column;
@@ -16,9 +16,15 @@
     }
 
     svg {
-        max-width: 70%;
+        @media (max-width: 1152px) {
+            max-width: 25%;
+        }
+
+        @media (max-width: 768px) {
+            max-width: 70%;
+        }
     }
-     
+
     &__title {
         margin-top: 0;
         color: #212529;
@@ -27,9 +33,9 @@
         font-weight: 700;
         letter-spacing: -1.44px;
 
-         @media (max-width: 320px) {
-           font-size: 36px;
-           margin-bottom: 100px;
+        @media (max-width: 320px) {
+            font-size: 36px;
+            margin-bottom: 100px;
         }
 
         span {
@@ -40,12 +46,12 @@
 
     &__br {
         position: absolute;
-        z-index: -1 ;
+        z-index: -1;
         left: 0;
         bottom: -17px;
 
-          @media (max-width: 320px) {
-           max-width: 150px;
+        @media (max-width: 320px) {
+            max-width: 150px;
         }
     }
 }

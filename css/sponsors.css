@@ -5,7 +5,7 @@
 .sponsors__content {
   display: flex;
   align-items: center;
-  gap: 216px;
+  justify-content: space-between;
 }
 @media (max-width: 768px) {
   .sponsors__content {
@@ -13,8 +13,15 @@
     gap: 100px;
   }
 }
-.sponsors svg {
-  max-width: 70%;
+@media (max-width: 1152px) {
+  .sponsors svg {
+    max-width: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .sponsors svg {
+    max-width: 70%;
+  }
 }
 .sponsors__title {
   margin-top: 0;

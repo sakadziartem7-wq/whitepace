@@ -3,6 +3,7 @@
   background: #043873;
   background-image: url(../images/apps/Element.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   padding: 140px 0;
 }
 .using__flex {

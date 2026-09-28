@@ -5,6 +5,7 @@
    background: $main_color;
    background-image: url(../images/apps/Element.svg);
    background-repeat: no-repeat;
+   background-size: contain;
    padding: 140px 0;
 
    &__flex {
@@ -12,7 +13,7 @@
       align-items: center;
       box-sizing: border-box;
 
-      @media (max-width:768px) {
+      @media (max-width: 768px) {
          flex-direction: column;
       }
    }
