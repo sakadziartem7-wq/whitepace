@@ -26,16 +26,16 @@
 
         span {
             position: relative;
-            z-index: 1;
+            z-index: 1;   
+        }   
+    }
 
-            svg {
+     &__img {
                 position: absolute;
                 left: 0;
                 z-index: -1;
                 bottom: -10px;
             }
-        }
-    }
 
     &__text {
         margin-top: 0;
@@ -49,7 +49,7 @@
         letter-spacing: -0.36px;
     }
 
-    &__grid {
+    &__list {
         margin: 0;
         padding: 0;
         display: flex;
@@ -57,13 +57,17 @@
         gap: 32px;
     }
 
-    &__list {
+    &__item {
         width: calc((100% - 64px) / 3);
         list-style: none;
         background: #fff;
         border: 1px solid #FFE492;
         border-radius: 10px;
         padding: 40px 44px;
+
+        &__personal {
+              background: $main_color;
+        }
     }
 
     &__name {
@@ -138,16 +142,6 @@
 
     }
 
-    &__list-personal {
-        max-width: 473px;
-        width: calc((100% - 64px) / 3);
-        border-radius: 10px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-        background: $main_color;
-        list-style: none;
-        padding: 80px 44px;
-    }
-
     &__second {
         margin-top: 0;
         color: #FFF;
@@ -180,7 +174,6 @@
         gap: 10px;
         margin-top: 28px;
         max-width: 347px;
-        position: relative;
         color: #FFF;
         font-size: 18px;
         font-weight: 500;
