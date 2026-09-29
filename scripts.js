@@ -6,3 +6,7 @@ function changeColorHero() {
 }
 
 buttonTry.addEventListener('click', changeColorHero);
+
+let name ="artem";
+let age =12;
+console.log(`меня зовут ${name}, мне$ {age}лет }`);
