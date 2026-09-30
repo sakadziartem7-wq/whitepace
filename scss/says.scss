@@ -55,6 +55,11 @@
         @media (max-width:1440px) {
             padding: 60px 24px;
         }
+
+         @media (max-width: 1024px) {
+            width: 341px;
+            flex-shrink: 0
+        }
     }
 
     &__text {
@@ -117,7 +122,7 @@
     &__buttons {
         display: none;
 
-           @media (max-width: 1024px) {
+        @media (max-width: 1024px) {
             padding-top: 23px;
             display: flex;
             justify-content: center;
