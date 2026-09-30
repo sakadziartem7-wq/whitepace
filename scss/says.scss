@@ -101,7 +101,7 @@
         border: 1px solid #FFF;
     }
 
-    &__texteri {
+    &__subtitle {
         color: #fff;
         font-size: 16px;
         font-weight: 400;
@@ -112,5 +112,6 @@
     &__avatar {
         object-fit: cover;
         margin-top: 67px;
+        max-width: 60%;
     }
 }

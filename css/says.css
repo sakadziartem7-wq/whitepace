@@ -84,7 +84,7 @@
 .says__border-bottom {
   border: 1px solid #FFF;
 }
-.says__texteri {
+.says__subtitle {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -94,6 +94,7 @@
 .says__avatar {
   object-fit: cover;
   margin-top: 67px;
+  max-width: 60%;
 }
 
 /*# sourceMappingURL=says.css.map */
