@@ -48,7 +48,7 @@
         box-shadow: 15px 10px 50px 0 rgba(0, 0, 0, 0.10);
         padding: 60px 40px;
 
-        &__blue {
+        &-blue {
             background: $button_color;
         }
 
@@ -112,6 +112,17 @@
     &__avatar {
         object-fit: cover;
         margin-top: 67px;
-        max-width: 60%;
+        max-width: 50%;
+    }
+
+    &__buttons {
+        display: none;
+
+           @media (max-width: 1024px) {
+            padding-top: 23px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
     }
 }
