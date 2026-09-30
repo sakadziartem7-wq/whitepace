@@ -885,6 +885,15 @@ body * {
   line-height: 30px;
   letter-spacing: -0.36px;
 }
+.plan__buttons {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .plan__buttons {
+    display: flex;
+    gap: 10px;
+  }
+}
 .plan__list {
   margin: 0;
   padding: 0;
@@ -899,6 +908,12 @@ body * {
   border: 1px solid #FFE492;
   border-radius: 10px;
   padding: 40px 44px;
+  transition: all 0.4s;
+}
+@media (max-width: 1024px) {
+  .plan__item {
+    width: 472px;
+  }
 }
 .plan__item_personal {
   background: #043873;
