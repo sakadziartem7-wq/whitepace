@@ -56,8 +56,9 @@
   border-radius: 10px;
   padding: 40px 44px;
 }
-.plan__item__personal {
+.plan__item_personal {
   background: #043873;
+  border-color: #043873;
 }
 .plan__name {
   margin-top: 0;
