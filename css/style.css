@@ -1581,7 +1581,6 @@ body * {
 .says__avatar {
   object-fit: cover;
   margin-top: 67px;
-  max-width: 50%;
 }
 .says__buttons {
   display: none;
