@@ -64,6 +64,7 @@
         display: flex;
         align-items: center;
         gap: 32px;
+        transition: all .4s;
     }
 
     &__item {
@@ -73,10 +74,15 @@
         border: 1px solid #FFE492;
         border-radius: 10px;
         padding: 40px 44px;
-        transition: all .4s;
 
         @media (max-width: 1024px) {
             width: 472px;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 500px) {
+            width: 289px;
+            padding: 20px;
         }
 
         &_personal {

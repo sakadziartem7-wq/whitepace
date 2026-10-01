@@ -13,10 +13,10 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body id="body">
     <header class="header">
         <div class="container header__container">
-            <a href="#" class="header__logo">
+            <a href="index.html" class="header__logo">
                 <svg width="37" height="29" viewBox="0 0 37 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_70_12911)">
                         <path
@@ -38,7 +38,7 @@
                 whitepace
             </a>
             <nav class="header__menu">
-                <a href="#" class="header__link" title="Products">Products
+                <a href="products.html" class="header__link" title="Products">Products
                     <svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.5 0.5L5 4.5L9.5 0.5" stroke="white" stroke-linecap="round"
                             stroke-linejoin="round" />
@@ -68,7 +68,7 @@
                 </a>
             </nav>
 
-            <button class="header__button">Login</button>
+            <button class="header__button" id="btn-login">Login</button>
 
             <button class="header__login-btn">Try Whitepace free
                 <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,6 +85,19 @@
 
         </div>
     </header>
+
+    <div class="overlay" id="overlay">
+        <div class="login-popup" id="login-popup">
+            <button class="login-popup__close" id="btn-close">X</button>
+            <h2 class="login-popup__title">Зарегистрируйся, СОБАКА!</h2>
+            <form action="" class="login-popup__form">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+
     <main>
         <section class="hero" id="hero">
             <div class="container hero__elem">
@@ -511,7 +524,7 @@
                     Whether you want to get organized, keep your personal life on track, or boost workplace
                     productivity, Evernote has the right plan for you.
                 </p>
-                <ul class="plan__list">
+                <ul class="plan__list" id="plan-list">
                     <li class="plan__item">
                         <h2 class="plan__name">Free</h2>
                         <span class="plan__price">$0</span>
@@ -1167,6 +1180,8 @@
 
 </body>
 
-<script src="scripts.js"></script>
+<script src="scripts/header.js"></script>
+<script src="scripts/plan.js"></script>
+<script src="scripts/says.js"></script>
 
 </html>

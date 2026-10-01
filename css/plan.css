@@ -56,6 +56,7 @@
   display: flex;
   align-items: center;
   gap: 32px;
+  transition: all 0.4s;
 }
 .plan__item {
   width: calc((100% - 64px) / 3);
@@ -64,11 +65,17 @@
   border: 1px solid #FFE492;
   border-radius: 10px;
   padding: 40px 44px;
-  transition: all 0.4s;
 }
 @media (max-width: 1024px) {
   .plan__item {
     width: 472px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 500px) {
+  .plan__item {
+    width: 289px;
+    padding: 20px;
   }
 }
 .plan__item_personal {
