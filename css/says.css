@@ -10,6 +10,16 @@
   font-weight: 700;
   line-height: 84px;
 }
+@media (max-width: 768px) {
+  .says__title {
+    font-size: 54px;
+  }
+}
+@media (max-width: 320px) {
+  .says__title {
+    font-size: 40px;
+  }
+}
 .says__title span {
   position: relative;
   z-index: 1;
@@ -18,7 +28,7 @@
   z-index: -1;
   position: absolute;
   left: 0;
-  bottom: 20px;
+  bottom: 15px;
   max-width: 200px;
 }
 .says__list {
@@ -118,7 +128,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 161px;
+  width: 100px;
   height: 63px;
   font-weight: 500;
   font-size: 18px;
