@@ -1050,6 +1050,11 @@ body * {
   cursor: pointer;
   transition: all 0.3s;
 }
+@media (max-width: 768px) {
+  .plan__button {
+    width: 100px;
+  }
+}
 .plan__button:hover {
   background: #f5f5f5;
   color: #212529;
@@ -1624,6 +1629,12 @@ body * {
     flex-shrink: 0;
   }
 }
+@media (max-width: 500px) {
+  .says__item {
+    width: 305px;
+    padding: 20px;
+  }
+}
 .says__text {
   color: #212529;
   font-size: 18px;
@@ -1671,6 +1682,11 @@ body * {
 .says__avatar {
   object-fit: cover;
   margin-top: 67px;
+}
+@media (max-width: 768px) {
+  .says__avatar {
+    width: 100%;
+  }
 }
 .says__buttons {
   display: none;
