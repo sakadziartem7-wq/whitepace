@@ -11,7 +11,7 @@ function saysSliderNext() {
         if (window.innerWidth <= 500) {
             saysList.style.transform = `translateX(${saysSlide * 337}px)`;
         } else {
-            saysList.style.transform = `translateX(${saysSlide * 373}px)`;
+            saysList.style.transform = `translateX(${saysSlide * 341}px)`;
         }
     }
 }
@@ -23,10 +23,29 @@ function saysSliderPrev() {
         if (window.innerWidth <= 500) {
             saysList.style.transform = `translateX(${saysSlide * 337}px)`;
         } else {
-            saysList.style.transform = `translateX(${saysSlide * 373}px)`;
+            saysList.style.transform = `translateX(${saysSlide * 341}px)`;
         }
     }
 }
 
 saysButtonPrev.addEventListener('click', saysSliderPrev);
 saysButtonNext.addEventListener('click', saysSliderNext);
+
+let startX = 0;
+let endX = 0;
+
+saysList.addEventListener('touchstart', function(event) {
+    startX = event.touches[0].clientX;
+});
+
+saysList.addEventListener('touchend', function(event) {
+    endX = event.changedTouches[0].clientX;
+
+    if (startX - endX > 50) {
+        saysSliderNext();
+    }
+
+    if (endX - startX > 50) {
+        saysSliderPrev();
+    }
+});
