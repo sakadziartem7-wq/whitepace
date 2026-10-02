@@ -1,19 +1,32 @@
 // Слайдер для секции Says
-let saysItem = document.getElementsByClassName('says__item');
-let saysBtnPrev = document.getElementById('saysBtnPrev');
-let saysBtnNext = document.getElementById('saysBtnNext');
+let saysList = document.getElementById('says-list');
+let saysButtonPrev = document.getElementById('saysBtnPrev');
+let saysButtonNext = document.getElementById('saysBtnNext');
+let saysSlide = 0;
 
-function sliderSaysPrev() {
-    saysItem[0].style.transform = 'translateX(100%)';
-    saysItem[1].style.transform = 'translateX(100%)';
-    saysItem[2].style.transform = 'translateX(100%)';
+function saysSliderNext() {
+    if (saysSlide >= -2) {
+        saysSlide = saysSlide - 1;
+
+        if (window.innerWidth <= 500) {
+            saysList.style.transform = `translateX(${saysSlide * 337}px)`;
+        } else {
+            saysList.style.transform = `translateX(${saysSlide * 373}px)`;
+        }
+    }
 }
 
-function sliderSaysNext() {
-    saysItem[0].style.transform = 'translateX(-100%)';
-    saysItem[1].style.transform = 'translateX(-100%)';
-    saysItem[2].style.transform = 'translateX(-100%)';
+function saysSliderPrev() {
+    if (saysSlide < 1) {
+        saysSlide = saysSlide + 1;
+
+        if (window.innerWidth <= 500) {
+            saysList.style.transform = `translateX(${saysSlide * 337}px)`;
+        } else {
+            saysList.style.transform = `translateX(${saysSlide * 373}px)`;
+        }
+    }
 }
 
-saysBtnPrev.addEventListener('click', sliderSaysPrev);
-saysBtnNext.addEventListener('click', sliderSaysNext);
+saysButtonPrev.addEventListener('click', saysSliderPrev);
+saysButtonNext.addEventListener('click', saysSliderNext);
