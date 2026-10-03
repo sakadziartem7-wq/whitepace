@@ -30,3 +30,22 @@ function sliderPrev() {
 
 buttonPrev.addEventListener('click', sliderPrev);
 buttonNext.addEventListener('click', sliderNext);
+
+let planStartX = 0;
+let planEndX = 0;
+
+planList.addEventListener('touchstart', function(event) {
+    planStartX = event.touches[0].clientX;
+});
+
+planList.addEventListener('touchend', function(event) {
+    planEndX = event.changedTouches[0].clientX;
+
+    if (planStartX - planEndX > 50) {
+        sliderNext();   // или planSliderNext, если переименовал
+    }
+
+    if (planEndX - planStartX > 50) {
+        sliderPrev();
+    }
+});
