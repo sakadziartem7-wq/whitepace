@@ -35,17 +35,25 @@ let startX = 0;
 let endX = 0;
 
 saysList.addEventListener('touchstart', function(event) {
-    startX = event.touches[0].clientX;
+
+    if (window.innerWidth <= 1024) {
+        startX = event.touches[0].clientX;
+    }
+
 });
 
 saysList.addEventListener('touchend', function(event) {
-    endX = event.changedTouches[0].clientX;
 
-    if (startX - endX > 50) {
-        saysSliderNext();
+    if (window.innerWidth <= 1024) {
+        endX = event.changedTouches[0].clientX;
+
+        if (startX - endX > 50) {
+            saysSliderNext();
+        }
+
+        if (endX - startX > 50) {
+            saysSliderPrev();
+        }
     }
 
-    if (endX - startX > 50) {
-        saysSliderPrev();
-    }
 });

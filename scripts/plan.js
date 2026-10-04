@@ -35,17 +35,25 @@ let planStartX = 0;
 let planEndX = 0;
 
 planList.addEventListener('touchstart', function(event) {
-    planStartX = event.touches[0].clientX;
+
+    if (window.innerWidth <= 1024) {
+        planStartX = event.touches[0].clientX;
+    }
+
 });
 
 planList.addEventListener('touchend', function(event) {
-    planEndX = event.changedTouches[0].clientX;
 
-    if (planStartX - planEndX > 50) {
-        sliderNext();   
+    if (window.innerWidth <= 1024) {
+        planEndX = event.changedTouches[0].clientX;
+
+        if (planStartX - planEndX > 50) {
+            sliderNext();
+        }
+
+        if (planEndX - planStartX > 50) {
+            sliderPrev();
+        }
     }
 
-    if (planEndX - planStartX > 50) {
-        sliderPrev();
-    }
 });
