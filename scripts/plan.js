@@ -42,7 +42,7 @@ planList.addEventListener('touchend', function(event) {
     planEndX = event.changedTouches[0].clientX;
 
     if (planStartX - planEndX > 50) {
-        sliderNext();   // или planSliderNext, если переименовал
+        sliderNext();   
     }
 
     if (planEndX - planStartX > 50) {

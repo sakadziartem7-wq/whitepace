@@ -1619,6 +1619,12 @@ body * {
   bottom: 15px;
   max-width: 200px;
 }
+@media (max-width: 320px) {
+  .says__img {
+    max-width: 116px;
+    bottom: 11px;
+  }
+}
 .says__list {
   display: flex;
   gap: 32px;
